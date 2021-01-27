@@ -1,0 +1,20 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap');
+
+// CSS NORMALIZE
+@import 'node_modules/normalize.css/normalize';
+
+// FONDATION SITES
+@import 'settings';
+@import 'node_modules/foundation-sites/assets/foundation';
+
+// MOTION-UI
+@import 'node_modules/motion-ui/src/motion-ui';
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+// MIXINS
+@import 'mixins';
+
+// STYLESHEETS
+@import 'mollet-arch';
