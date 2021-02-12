@@ -28,24 +28,24 @@
 
 // Transform Origin
 @mixin transform-origin ($origin) {
-    	-webkit-transform-origin: $origin;
-    	-moz-transform-origin: $origin;
+	-webkit-transform-origin: $origin;
+	-moz-transform-origin: $origin;
 	-ms-transform-origin: $origin;
 	transform-origin: $origin;
 }
 
 // Background size
 @mixin background-size($background-size) {
-  -webkit-background-size: $background-size;
-     -moz-background-size: $background-size;
-       -o-background-size: $background-size;
-          background-size: $background-size;
+	-webkit-background-size: $background-size;
+	-moz-background-size: $background-size;
+	-o-background-size: $background-size;
+	background-size: $background-size;
 }
 // Transition
 @mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
-  transition: $args;
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
 }

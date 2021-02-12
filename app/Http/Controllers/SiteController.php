@@ -14,17 +14,31 @@ class SiteController extends Controller
     */
     public function welcome()
     {
-        return view('welcome')->with('projects', Project::all());
+        return view('gallery')
+        ->with('projects', Project::all())
+        ->with('hideTitle', true);
     }
 
     /**
-    * Show the page with all realisations.
+    * Show the page with all public buildings.
     *
     * @return \Illuminate\Contracts\Support\Renderable
     */
-    public function realisations()
+    public function publicBuildings()
     {
-        return view('welcome')->with('projects', Project::where('category', 'realisation')->get());
+        return view('gallery')
+        ->with('projects', Project::where('category', 'public-building')->get());
+    }
+
+    /**
+    * Show the page with all residential houses.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function residentialHouses()
+    {
+        return view('gallery')
+        ->with('projects', Project::where('category', 'residential-house')->get());
     }
 
     /**
@@ -34,7 +48,7 @@ class SiteController extends Controller
     */
     public function competitions()
     {
-        return view('welcome')->with('projects', Project::where('category', 'competition')->get());
+        return view('competitions');
     }
 
     /**
@@ -57,7 +71,13 @@ class SiteController extends Controller
     {
         switch ($slug) {
             case 'project-slug' :
-                return view('projects/'.$slug);
+            case 'bourg-21-27-29' :
+            case 'chemin-du-clos' :
+            case 'chemin-vert' :
+            case 'cp-moutier' :
+            case 'home-d-orvin' :
+                return view('projects/'.$slug)
+                ->with('project', Project::where('slug', $slug)->first());
             default :
                 abort(404);
         }

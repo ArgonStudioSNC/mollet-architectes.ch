@@ -2,7 +2,6 @@ window._ = require('lodash');
 
 try {
     require('foundation-sites');
-
 } catch (e) {}
 
 $(document).foundation();

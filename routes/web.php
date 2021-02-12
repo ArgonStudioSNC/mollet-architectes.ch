@@ -15,7 +15,8 @@ use App\Http\Controllers\SiteController;
 */
 
 Route::get('/', [SiteController::class, 'welcome'])->name('welcome');
-Route::get('/realisations', [SiteController::class, 'realisations'])->name('realisations');
+Route::get('/batiments-publics', [SiteController::class, 'publicBuildings'])->name('public-buildings');
+Route::get('/maisons-individuelles', [SiteController::class, 'residentialHouses'])->name('residential-houses');
 Route::get('/coucours', [SiteController::class, 'competitions'])->name('competitions');
 Route::get('/bureau', [SiteController::class, 'office'])->name('office');
 Route::get('/projet/{slug}', [SiteController::class, 'project'])->name('project');
