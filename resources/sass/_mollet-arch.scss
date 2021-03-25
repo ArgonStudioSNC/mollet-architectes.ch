@@ -57,8 +57,8 @@
     }
 }
 
-.project-gallery {
-    .project-title {
+.object-gallery {
+    .object-title {
         font-size: 0.8666rem;
         font-weight: 600;
         margin: {
@@ -91,12 +91,12 @@ $masonry-css-column-gap: 1rem;
     margin-bottom: 2*$masonry-css-column-gap;
 }
 
-.project-lead {
+.object-lead {
     margin-bottom: 2rem;
 }
-.project-content {
+.object-content {
     padding-top: 2rem;
-    .project-description, .project-data {
+    .object-description, .object-data {
         margin-top: 2rem;
     }
 }
@@ -163,6 +163,11 @@ $masonry-css-column-gap: 1rem;
         }
     }
 }
+.flex-img {
+    width: 100%;
+    height: auto;
+}
+
 .arrow-left {
     @include transform(rotate(180deg));
     :hover > & {

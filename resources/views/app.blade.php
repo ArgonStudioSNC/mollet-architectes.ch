@@ -37,7 +37,8 @@
                     <div class="grid-container">
                         <ul class="no-bullet">
                             <li><a href="{{ route('public-buildings') }}">Bâtiments publics</a></li>
-                            <li><a href="{{ route('residential-houses') }}">Maisons individuelles</a></li>
+                            <li><a href="{{ route('collective-housing') }}">Habitations collectives</a></li>
+                            <li><a href="{{ route('individual-housing') }}">Habitations individuelles</a></li>
                             <li><a href="{{ route('competitions') }}">Concours</a></li>
                             <li><a href="{{ route('office') }}">Bureau</a></li>
                         </ul>
@@ -68,7 +69,8 @@
                     <div class="cell large-3 xxlarge-2">
                         <ul class="no-bullet">
                             <li><a href="{{ route('public-buildings') }}">Bâtiments publics</a></li>
-                            <li><a href="{{ route('residential-houses') }}">Maisons individuelles</a></li>
+                            <li><a href="{{ route('collective-housing') }}">Habitations collectives</a></li>
+                            <li><a href="{{ route('individual-housing') }}">Habitations individuelles</a></li>
                             <li><a href="{{ route('competitions') }}">Concours</a></li>
                             <li><a href="{{ route('office') }}">Bureau</a></li>
                         </ul>

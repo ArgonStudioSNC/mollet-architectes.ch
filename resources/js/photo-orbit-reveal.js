@@ -10,7 +10,3 @@ $('.reveal-external-control').click( function(e) {
 $('#reveal-gallery').on('closeme.zf.reveal', x => {
     $(window).resize();
 });
-
-function test() {
-    console.log("hello");
-}

@@ -17,7 +17,7 @@ class CreateProjectsTable extends Migration
             $table->id();
             $table->string('slug');
             $table->string('title');
-            $table->enum('category', ['public-building', 'residential-house']);
+            $table->enum('category', ['public-building', 'individual-housing', 'collective-housing']);
             $table->string('client')->nullable();
             $table->string('location');
             $table->timestamps();

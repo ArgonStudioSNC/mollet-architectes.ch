@@ -15,7 +15,7 @@ class SiteController extends Controller
     public function welcome()
     {
         return view('gallery')
-        ->with('projects', Project::all())
+        ->with('projects', Project::all()->shuffle())
         ->with('hideTitle', true);
     }
 
@@ -31,14 +31,25 @@ class SiteController extends Controller
     }
 
     /**
-    * Show the page with all residential houses.
+    * Show the page with all collective housing.
     *
     * @return \Illuminate\Contracts\Support\Renderable
     */
-    public function residentialHouses()
+    public function collectiveHousing()
     {
         return view('gallery')
-        ->with('projects', Project::where('category', 'residential-house')->get());
+        ->with('projects', Project::where('category', 'collective-housing')->get());
+    }
+
+    /**
+    * Show the page with all individual housing.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function individualHousing()
+    {
+        return view('gallery')
+        ->with('projects', Project::where('category', 'individual-housing')->get());
     }
 
     /**
