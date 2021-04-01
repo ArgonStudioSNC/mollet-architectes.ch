@@ -3,7 +3,7 @@
 @section('content')
 
     @include('templates.object-2-col', [
-        'header' => "",
+        'header' => "Maison familiale, Belprahon",
         'subheader' => "",
         'description' => [
         ],
@@ -13,11 +13,10 @@
         ],
         'figures' => [
             [
-                'alt' => "Image",
-                'src' => '',
+                'alt' => "Image extérieure 1",
+                'src' => 'maison-montavon_exterieur-1@512.jpg',
                 'media' => [
-                    '1024' => '@2048.jpg',
-                    '512' => '@1024.jpg',
+                    '512' => 'maison-montavon_exterieur-1@1024.jpg',
                 ],
             ],
         ],

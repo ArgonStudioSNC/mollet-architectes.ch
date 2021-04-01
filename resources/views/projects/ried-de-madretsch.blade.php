@@ -3,7 +3,7 @@
 @section('content')
 
     @include('templates.object-2-col', [
-        'header' => "",
+        'header' => "Ried de Madretsch, Biel/Bienne",
         'subheader' => "",
         'description' => [
         ],
@@ -13,11 +13,27 @@
         ],
         'figures' => [
             [
-                'alt' => "Image",
-                'src' => '',
+                'alt' => "Coupes et façades",
+                'src' => 'ried-de-madretsch_coupes-et-facades@512.jpg',
                 'media' => [
-                    '1024' => '@2048.jpg',
-                    '512' => '@1024.jpg',
+                    '1024' => 'ried-de-madretsch_coupes-et-facades@2048.jpg',
+                    '512' => 'ried-de-madretsch_coupes-et-facades@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Plan 1",
+                'src' => 'ried-de-madretsch_plan-1@512.jpg',
+                'media' => [
+                    '1024' => 'ried-de-madretsch_plan-1@2048.jpg',
+                    '512' => 'ried-de-madretsch_plan-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Plan 2",
+                'src' => 'ried-de-madretsch_plan-2@512.jpg',
+                'media' => [
+                    '1024' => 'ried-de-madretsch_plan-2@2048.jpg',
+                    '512' => 'ried-de-madretsch_plan-2@1024.jpg',
                 ],
             ],
         ],

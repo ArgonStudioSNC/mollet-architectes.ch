@@ -5,16 +5,18 @@ $dir = 'storage'.DIRECTORY_SEPARATOR.'office'.DIRECTORY_SEPARATOR;
 $figures = [
     [
         'alt' => "Photo du bureau",
-        'src' => 'cover@1024.jpg',
+        'src' => 'cover@512.jpg',
         'media' => [
             '1024' => 'cover@2048.jpg',
+            '512' => 'cover@1024.jpg'
         ],
     ],
     [
         'alt' => "Dessin Bastian",
-        'src' => 'bastian@1024.jpg',
+        'src' => 'bastian@512.jpg',
         'media' => [
             '1024' => 'bastian.jpg',
+            '512' => 'bastian@1024.jpg'
         ],
     ],
 ]

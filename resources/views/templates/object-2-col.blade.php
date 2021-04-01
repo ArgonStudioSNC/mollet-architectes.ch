@@ -10,7 +10,7 @@ $dir = 'storage'.DIRECTORY_SEPARATOR.'projects'.DIRECTORY_SEPARATOR.$project->sl
                     @foreach ($figures[0]['media'] as $size => $path)
                     <source media="(min-width:{{ $size }}px)" srcset="{{ asset($dir.$path) }}"\>
                     @endforeach
-                    <img src="{{ asset($dir.$figures[0]['src']) }}" alt="{{ $figures[0]['alt'] }}"\>
+                    <img class=flex-img src="{{ asset($dir.$figures[0]['src']) }}" alt="{{ $figures[0]['alt'] }}"\>
                 </picture>
             </button>
         </div>
@@ -28,7 +28,9 @@ $dir = 'storage'.DIRECTORY_SEPARATOR.'projects'.DIRECTORY_SEPARATOR.$project->sl
                             </div>
                             <div class="object-brochure">
                                 @foreach ($files as $key => $value)
-                                    <a href="{{ $value }}" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp;<span class="underline">{{ $key }}</span></a>
+                                    <div>
+                                        <a href="{{ $value }}" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp;<span class="underline">{{ $key }}</span></a>
+                                    </div>
                                 @endforeach
                             </div>
                             <div class="object-data grid-x">

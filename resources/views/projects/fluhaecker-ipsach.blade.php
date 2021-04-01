@@ -3,7 +3,7 @@
 @section('content')
 
     @include('templates.object-2-col', [
-        'header' => "",
+        'header' => "Fluhhaecker, Ipsach",
         'subheader' => "",
         'description' => [
         ],
@@ -13,7 +13,7 @@
         ],
         'figures' => [
             [
-                'alt' => "Image",
+                'alt' => "AUCUNE IMAGE",
                 'src' => '',
                 'media' => [
                     '1024' => '@2048.jpg',

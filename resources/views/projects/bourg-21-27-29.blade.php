@@ -6,7 +6,7 @@
         'header' => "Bâtiment administratif<br>Bourg 21,27, 29, Bienne",
         'subheader' => "",
         'description' => [
-            "Restauration et transformation de bâtiment à vocation publique des 16ème, 18ème et 19ème siècles. Recherche d'une mise en valeur réciproque des interventions historiques successives et des interventions contemporaines par l'expression du matériau et du détail.",
+            "Restauration et transformation de bâtiment à vocation publique des 16e, 18e et 19e siècles. Recherche d’une mise en valeur réciproque des interventions historiques successives et des interventions contemporaines par l’expression du matériau et du détail.",
             "Bei der Restaurierung und dem Umbau von öffentlichen Gebäuden aus dem 16., 18. und 19. Jahrhundert ging es primär darum, die Wechselwirkung zwischen den verschiedenen historischen Umbauten und den zeitgenössischen Interventionen hervorzuheben. Dies geschah massgeblich durch die Materialwahl und die Pflege des Details.",
         ],
         'files' => [

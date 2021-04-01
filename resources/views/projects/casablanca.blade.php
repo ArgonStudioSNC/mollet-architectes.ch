@@ -21,11 +21,24 @@
         ],
         'figures' => [
             [
-                'alt' => "Image",
-                'src' => '',
+                'alt' => "Image extérieure 1",
+                'src' => 'casablanca_exterieur-1@512.jpg',
                 'media' => [
-                    '1024' => '@2048.jpg',
-                    '512' => '@1024.jpg',
+                    '512' => 'casablanca_exterieur-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 2",
+                'src' => 'casablanca_exterieur-2@512.jpg',
+                'media' => [
+                    '512' => 'casablanca_exterieur-2@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 3",
+                'src' => 'casablanca_exterieur-3@512.jpg',
+                'media' => [
+                    '512' => 'casablanca_exterieur-3@1024.jpg',
                 ],
             ],
         ],

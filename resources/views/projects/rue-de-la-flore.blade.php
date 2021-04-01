@@ -3,7 +3,7 @@
 @section('content')
 
     @include('templates.object-2-col', [
-        'header' => "",
+        'header' => "Rue de la Flore, Biel/Bienne",
         'subheader' => "",
         'description' => [
         ],
@@ -13,11 +13,19 @@
         ],
         'figures' => [
             [
-                'alt' => "Image",
-                'src' => '',
+                'alt' => "Image extérieure 1",
+                'src' => 'rue-de-la-flore_exterieur-1@512.jpg',
                 'media' => [
-                    '1024' => '@2048.jpg',
-                    '512' => '@1024.jpg',
+                    '1024' => 'rue-de-la-flore_exterieur-1@2048.jpg',
+                    '512' => 'rue-de-la-flore_exterieur-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Plans",
+                'src' => 'rue-de-la-flore_plans@512.jpg',
+                'media' => [
+                    '1024' => 'rue-de-la-flore_plans@2048.jpg',
+                    '512' => 'rue-de-la-flore_plans@1024.jpg',
                 ],
             ],
         ],

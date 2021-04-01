@@ -21,11 +21,57 @@
         ],
         'figures' => [
             [
-                'alt' => "Image",
-                'src' => '',
+                'alt' => "Image extérieure 1",
+                'src' => 'dufour_exterieur-1@512.jpg',
                 'media' => [
-                    '1024' => '@2048.jpg',
-                    '512' => '@1024.jpg',
+                    '1024' => 'dufour_exterieur-1@2048.jpg',
+                    '512' => 'dufour_exterieur-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 2",
+                'src' => 'dufour_exterieur-2@512.jpg',
+                'media' => [
+                    '1024' => 'dufour_exterieur-2@2048.jpg',
+                    '512' => 'dufour_exterieur-2@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 3",
+                'src' => 'dufour_exterieur-3@512.jpg',
+                'media' => [
+                    '1024' => 'dufour_exterieur-3@2048.jpg',
+                    '512' => 'dufour_exterieur-3@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 4",
+                'src' => 'dufour_exterieur-4@512.jpg',
+                'media' => [
+                    '1024' => 'dufour_exterieur-4@2048.jpg',
+                    '512' => 'dufour_exterieur-4@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 5",
+                'src' => 'dufour_exterieur-5@512.jpg',
+                'media' => [
+                    '1024' => 'dufour_exterieur-5@2048.jpg',
+                    '512' => 'dufour_exterieur-5@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 6",
+                'src' => 'dufour_exterieur-6@512.jpg',
+                'media' => [
+                    '512' => 'dufour_exterieur-6@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 7",
+                'src' => 'dufour_exterieur-7@512.jpg',
+                'media' => [
+                    '512' => 'dufour_exterieur-7@1024.jpg',
                 ],
             ],
         ],

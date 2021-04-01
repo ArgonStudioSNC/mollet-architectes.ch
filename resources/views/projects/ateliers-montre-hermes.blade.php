@@ -6,7 +6,7 @@
         'header' => "Les Ateliers de la Montre Hermès SA, Brügg",
         'subheader' => "",
         'description' => [
-            "Le choix architectural sert une conception moderne de l'outil de production, à l'image des Ateliers Hermès de Pantin, en France. La lumière naturelle, essentielle au travail horloger de haute précision, pénètre largement dans le bâtiment de verre, et les établis sont orientés face au paysage extérieur... tandis qu'un palmier, haut d'une dizaine de mètre, s'élève dans le patio central.",
+            "Le choix architectural sert une conception moderne de l’outil de production, à l’image des Ateliers Hermès de Pantin, en France. La lumière naturelle, essentielle au travail horloger de haute précision, pénètre largement dans le bâtiment de verre, et les établis sont orientés face au paysage extérieur... tandis qu’un palmier, haut d’une dizaine de mètres, s’élève dans le patio central.",
         ],
         'files' => [
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),

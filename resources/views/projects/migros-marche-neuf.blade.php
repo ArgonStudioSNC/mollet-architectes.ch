@@ -6,7 +6,7 @@
         'header' => "Immeuble commercial et d'habitation\"Migros Marché-Neuf\", Biel/Bienne",
         'subheader' => "",
         'description' => [
-            "Situé dans un angle important dans le contexte urbain, le bâtiment relie les deux rues principales par sa façade. Le complexe abrite un magasin Migras, des salles de cours ainsi que des appartements. Des zones de vente extérieures animent la transition entre l 'espace public du trottoir et l' intérieur du bâtiment.",
+            "Situé dans un angle important dans le contexte urbain, le bâtiment relie les deux rues principales par sa façade. Le complexe abrite un magasin Migras, des salles de cours ainsi que des appartements. Des zones de vente extérieures animent la transition entre l’espace public du trottoir et l’intérieur du bâtiment.",
             "An einer städtebaulich bedeutenden Ecke im Stadtzentrum gelegen, verbindet das Gebäude mit seiner umlaufenden Fassade die beiden flankierenden Strassenzüge. Es beinhaltet Laden- und Schulungsräume sowie ein Restaurant. Bei der Sockelgestaltung wurde Wert darauf gelegt, dass rückspringende Zonen mit Aussenverkauf einen fliessenden Übergang zwischen Trottoir und Innenraum bilden.",
         ],
         'files' => [
@@ -23,11 +23,43 @@
         ],
         'figures' => [
             [
-                'alt' => "Image",
-                'src' => '',
+                'alt' => "Image extérieure 1",
+                'src' => 'migros-marche-neuf_exterieur-1@512.jpg',
                 'media' => [
-                    '1024' => '@2048.jpg',
-                    '512' => '@1024.jpg',
+                    '1024' => 'migros-marche-neuf_exterieur-1@2048.jpg',
+                    '512' => 'migros-marche-neuf_exterieur-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 2",
+                'src' => 'migros-marche-neuf_exterieur-2@512.jpg',
+                'media' => [
+                    '1024' => 'migros-marche-neuf_exterieur-2@2048.jpg',
+                    '512' => 'migros-marche-neuf_exterieur-2@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 3",
+                'src' => 'migros-marche-neuf_exterieur-3@512.jpg',
+                'media' => [
+                    '1024' => 'migros-marche-neuf_exterieur-3@2048.jpg',
+                    '512' => 'migros-marche-neuf_exterieur-3@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 4",
+                'src' => 'migros-marche-neuf_exterieur-4@512.jpg',
+                'media' => [
+                    '1024' => 'migros-marche-neuf_exterieur-4@2048.jpg',
+                    '512' => 'migros-marche-neuf_exterieur-4@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 5",
+                'src' => 'migros-marche-neuf_exterieur-5@512.jpg',
+                'media' => [
+                    '1024' => 'migros-marche-neuf_exterieur-5@2048.jpg',
+                    '512' => 'migros-marche-neuf_exterieur-5@1024.jpg',
                 ],
             ],
         ],
