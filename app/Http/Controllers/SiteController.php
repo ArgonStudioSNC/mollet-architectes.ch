@@ -80,17 +80,11 @@ class SiteController extends Controller
     */
     public function project($slug)
     {
-        switch ($slug) {
-            case 'project-slug' :
-            case 'bourg-21-27-29' :
-            case 'chemin-du-clos' :
-            case 'chemin-vert' :
-            case 'cp-moutier' :
-            case 'home-d-orvin' :
-                return view('projects/'.$slug)
-                ->with('project', Project::where('slug', $slug)->first());
-            default :
-                abort(404);
+        $view = "projects/" . $slug;
+        if (view()->exists($view)) {
+            return view($view)
+            ->with('project', Project::where('slug', $slug)->first());
         }
+        abort(404);
     }
 }

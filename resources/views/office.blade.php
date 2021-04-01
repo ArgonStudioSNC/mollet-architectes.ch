@@ -1,10 +1,23 @@
 @extends('app')
 
 @php
+$dir = 'storage'.DIRECTORY_SEPARATOR.'office'.DIRECTORY_SEPARATOR;
 $figures = [
-    ["timg" => asset('storage/office/mollet-architectes_cover@1024.jpg'), "img" => asset('storage/office/mollet-architectes_cover@2048.jpg'), "caption" => ""],
-    ["timg" => asset('storage/office/mollet-architectes_bastian@1024.jpg'), "img" => asset('storage/office/mollet-architectes_bastian.jpg'), "caption" => ""],
-];
+    [
+        'alt' => "Photo du bureau",
+        'src' => 'cover@1024.jpg',
+        'media' => [
+            '1024' => 'cover@2048.jpg',
+        ],
+    ],
+    [
+        'alt' => "Dessin Bastian",
+        'src' => 'bastian@1024.jpg',
+        'media' => [
+            '1024' => 'bastian.jpg',
+        ],
+    ],
+]
 @endphp
 
 @section('content')
@@ -23,7 +36,12 @@ $figures = [
                             </p>
                             <p>
                                 <button class="cell xxlarge-8 reveal-external-control" data-toggle="reveal-gallery" data-slide=1>
-                                    <img src="{{ $figures[1]['timg'] }}" />
+                                    <picture>
+                                        @foreach ($figures[1]['media'] as $size => $path)
+                                        <source media="(min-width:{{ $size }}px)" srcset="{{ asset($dir.$path) }}"\>
+                                        @endforeach
+                                        <img src="{{ asset($dir.$figures[1]['src']) }}" alt="{{ $figures[1]['alt'] }}"\>
+                                    </picture>
                                 </button>
                             </p>
                             <p>
@@ -36,12 +54,20 @@ $figures = [
                 </div>
                 <div class="cell large-6">
                     <button class="cell xxlarge-8 reveal-external-control" data-toggle="reveal-gallery" data-slide=0>
-                        <img src="{{ $figures[0]['timg'] }}" />
+                        <picture>
+                            @foreach ($figures[0]['media'] as $size => $path)
+                            <source media="(min-width:{{ $size }}px)" srcset="{{ asset($dir.$path) }}"\>
+                            @endforeach
+                            <img src="{{ asset($dir.$figures[0]['src']) }}" alt="{{ $figures[0]['alt'] }}"\>
+                        </picture>
                     </button>
                 </div>
             </div>
         </div>
     </div>
-    @include('shared/orbit-gallery')
+    @include('shared/orbit-gallery', [
+        'dir' => $dir,
+        'figures' => $figures,
+    ])
 
 @endsection

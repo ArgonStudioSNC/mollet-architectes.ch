@@ -16,16 +16,20 @@
                 </button>
             </div>
             <ul class="cell auto orbit-container">
-                @for ($i=0; $i < count($figures); $i++)
+                @foreach ($figures as $fig)
                 <li class="orbit-slide">
                     <figure class="orbit-figure grid-y">
                         <div class="cell auto">
-                            <img class="centered" src="{{ $figures[$i]['img'] }}" alt="IMAGE {{ $figures[$i]['img'] }}">
+                            <picture>
+                                @foreach ($fig['media'] as $size => $path)
+                                <source media="(min-width:{{ $size }}px)" srcset="{{ asset($dir.$path) }}"\>
+                                @endforeach
+                                <img class="centered" src="{{ asset($dir.$fig['src']) }}" alt="{{ $fig['alt'] }}"\>
+                            </picture>
                         </div>
-                        {{--<figcaption class="cell"><span>{{ $figures[$i]['caption'] }}</span></figcaption>--}}
                     </figure>
                 </li>
-                @endfor
+                @endforeach
             </ul>
         </div>
     </div>

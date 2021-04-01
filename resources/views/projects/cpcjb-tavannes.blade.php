@@ -3,7 +3,7 @@
 @section('content')
 
     @include('templates.object-2-col', [
-        'header' => "Chemin Vert, Biel/Bienne",
+        'header' => "",
         'subheader' => "",
         'description' => [
         ],
