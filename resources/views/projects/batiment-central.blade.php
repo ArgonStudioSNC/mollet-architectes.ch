@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -13,26 +15,26 @@
             'plans de l\'ouvrage' => asset('storage/projects/'.$project->slug.'/plans.pdf'),
         ],
         'details' => [
-            "Lieu" => "Bahnhofstrasse, Biel",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "Zingg + Partner, Biel",
+            __('projects.location') => "Bahnhofstrasse, Biel",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "Zingg + Partner, Biel",
             "" => "&nbsp;",
-            "Exécution" => "2000 - 2002",
+            __('projects.execution') => "2000 - 2002",
         ],
         'figures' => [
-            [
-                'alt' => "Image extérieure 1",
-                'src' => 'batiment-central_exterieur-1@512.jpg',
-                'media' => [
-                    '512' => 'batiment-central_exterieur-1@1024.jpg',
-                ],
-            ],
             [
                 'alt' => "Image extérieure 2",
                 'src' => 'batiment-central_exterieur-2@512.jpg',
                 'media' => [
                     '512' => 'batiment-central_exterieur-2@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 1",
+                'src' => 'batiment-central_exterieur-1@512.jpg',
+                'media' => [
+                    '512' => 'batiment-central_exterieur-1@1024.jpg',
                 ],
             ],
             [

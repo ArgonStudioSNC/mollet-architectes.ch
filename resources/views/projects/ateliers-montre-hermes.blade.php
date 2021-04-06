@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -12,24 +14,16 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Erlenstrasse 31 a, Brügg",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Communauté d'architectes<br>Scpa Céria & Coupel, Paris<br>Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "Mathys & Wysseier, Bienne",
-            "Spécialistes" => "TP AG, Bienne<br>JAG, Jakob AG, Bienne",
+            __('projects.location') => "Erlenstrasse 31 a, Brügg",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Communauté d'architectes<br>Scpa Céria & Coupel, Paris<br>Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "Mathys & Wysseier, Bienne",
+            __('projects.expert') => "TP AG, Bienne<br>JAG, Jakob AG, Bienne",
             "" => "nbsp;",
-            "Début des travaux" => "11 août 1997",
-            "Fin des travaux" => "Juillet 1999",
+            __('projects.construction-start') => "11 août 1997",
+            __('projects.construction-end') => "Juillet 1999",
         ],
         'figures' => [
-            [
-                'alt' => "Coupe 2",
-                'src' => 'ateliers-montre-hermes_coupe-2@512.jpg',
-                'media' => [
-                    '1024' => 'ateliers-montre-hermes_coupe-2@2048.jpg',
-                    '512' => 'ateliers-montre-hermes_coupe-2@1024.jpg',
-                ],
-            ],
             [
                 'alt' => "Image extérieure 1",
                 'src' => 'ateliers-montre-hermes_exterieur-1@512.jpg',
@@ -37,6 +31,14 @@
                     '512' => 'ateliers-montre-hermes_exterieur-1@1024.jpg',
                 ],
             ],
+                [
+                    'alt' => "Coupe 2",
+                    'src' => 'ateliers-montre-hermes_coupe-2@512.jpg',
+                    'media' => [
+                        '1024' => 'ateliers-montre-hermes_coupe-2@2048.jpg',
+                        '512' => 'ateliers-montre-hermes_coupe-2@1024.jpg',
+                    ],
+                ],
             [
                 'alt' => "Image extérieure 2",
                 'src' => 'ateliers-montre-hermes_exterieur-2@512.jpg',

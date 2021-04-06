@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-3-col', [
@@ -14,12 +16,12 @@
             'revue "Architecture Suisse" de Juillet 1992' => asset('storage/projects/'.$project->slug.'/architecture-suisse.pdf'),
         ],
         'details' => [
-            "Lieu" => "Chemin du Clos 83/85, Bienne",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "Chablais & Poffet, Estavayer-le-Lac",
+            __('projects.location') => "Chemin du Clos 83/85, Bienne",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "Chablais & Poffet, Estavayer-le-Lac",
             "" => "&nbsp;",
-            "Exécution" => "1988 - 1989",
+            __('projects.execution') => "1988 - 1989",
         ],
         'figures' => [
             [

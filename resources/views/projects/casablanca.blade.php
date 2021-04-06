@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -12,12 +14,12 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Rue du débarcadère 1 , Biel/Bienne",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "Mathys & Wysseier, Bienne",
+            __('projects.location') => "Rue du débarcadère 1 , Biel/Bienne",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "Mathys & Wysseier, Bienne",
             "" => "&nbsp;",
-            "Exécution" => "1994 - 1995",
+            __('projects.execution') => "1994 - 1995",
         ],
         'figures' => [
             [

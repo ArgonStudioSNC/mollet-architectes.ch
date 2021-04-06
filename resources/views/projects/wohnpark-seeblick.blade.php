@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -10,9 +12,9 @@
         'files' => [
         ],
         'details' => [
-            "Lieu" => "Bellmund",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
+            __('projects.location') => "Bellmund",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
         ],
         'figures' => [
             [

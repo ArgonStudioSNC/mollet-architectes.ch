@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-3-col', [
@@ -13,22 +15,15 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Burggasse 21,27,29, Bienne",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "Zingg+Partner, Biel",
+            __('projects.location') => "Burggasse 21,27,29, Bienne",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "Zingg+Partner, Biel",
             "" => "&nbsp;",
-            "Conception" => "1979 - 1981",
-            "Exécution" => "1982 - 1989",
+            __('projects.conception') => "1979 - 1981",
+            __('projects.execution') => "1982 - 1989",
         ],
         'figures' => [
-            [
-                'alt' => "Image extérieure 1",
-                'src' => 'bourg-21-27-29_exterieur-1@512.jpg',
-                'media' => [
-                    '512' => 'bourg-21-27-29_exterieur-1@1024.jpg',
-                ],
-            ],
             [
                 'alt' => "Image intérieure 1",
                 'src' => 'bourg-21-27-29_interieur-1@512.jpg',
@@ -41,14 +36,6 @@
                 'src' => 'bourg-21-27-29_interieur-2@512.jpg',
                 'media' => [
                     '512' => 'bourg-21-27-29_interieur-2@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image intérieure 3",
-                'src' => 'bourg-21-27-29_interieur-3@512.jpg',
-                'media' => [
-                    '1024' => 'bourg-21-27-29_interieur-3@2048.jpg',
-                    '512' => 'bourg-21-27-29_interieur-3@1024.jpg',
                 ],
             ],
             [
@@ -76,11 +63,18 @@
                 ],
             ],
             [
-                'alt' => "Plan 4",
-                'src' => 'bourg-21-27-29_plan-4@512.jpg',
+                'alt' => "Image extérieure 1",
+                'src' => 'bourg-21-27-29_exterieur-1@512.jpg',
                 'media' => [
-                    '1024' => 'bourg-21-27-29_plan-4@2048.jpg',
-                    '512' => 'bourg-21-27-29_plan-4@1024.jpg',
+                    '512' => 'bourg-21-27-29_exterieur-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image intérieure 3",
+                'src' => 'bourg-21-27-29_interieur-3@512.jpg',
+                'media' => [
+                    '1024' => 'bourg-21-27-29_interieur-3@2048.jpg',
+                    '512' => 'bourg-21-27-29_interieur-3@1024.jpg',
                 ],
             ],
             [
@@ -89,6 +83,14 @@
                 'media' => [
                     '1024' => 'bourg-21-27-29_plan-5@2048.jpg',
                     '512' => 'bourg-21-27-29_plan-5@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Plan 4",
+                'src' => 'bourg-21-27-29_plan-4@512.jpg',
+                'media' => [
+                    '1024' => 'bourg-21-27-29_plan-4@2048.jpg',
+                    '512' => 'bourg-21-27-29_plan-4@1024.jpg',
                 ],
             ],
         ],

@@ -25,7 +25,7 @@ class ProjectSeeder extends Seeder
         Project::create( [ 'slug' => 'cpcjb-tavannes', 'title' => 'CPCJB', 'category' => 'public-building', 'client' => '', 'location' => 'Tavannes' ] );
         Project::create( [ 'slug' => 'dufour', 'title' => 'Dufour', 'category' => 'public-building', 'client' => 'Zender AG - Cooperative Nelken', 'location' => 'Biel/Bienne' ] );
         Project::create( [ 'slug' => 'ecole-d-agriculture', 'title' => 'École d\'agriculture', 'category' => 'public-building', 'client' => '', 'location' => 'Loveresse' ] );
-        Project::create( [ 'slug' => 'magasin-loeb', 'title' => 'LOEB', 'category' => 'public-building', 'client' => 'IMLO Immobilien AG, Berne', 'location' => 'Biel/Bienne' ] );
+        Project::create( [ 'slug' => 'magasin-loeb', 'title' => 'Magasin LOEB', 'category' => 'public-building', 'client' => 'IMLO Immobilien AG, Berne', 'location' => 'Biel/Bienne' ] );
         Project::create( [ 'slug' => 'migros-marche-neuf', 'title' => 'Migros Marché-Neuf', 'category' => 'public-building', 'client' => 'Migros Aare, Schönbühl', 'location' => 'Biel/Bienne' ] );
         Project::create( [ 'slug' => 'studio-schwarz', 'title' => 'Studio Schwarz', 'category' => 'public-building', 'client' => '', 'location' => 'Berne' ] );
 
@@ -38,7 +38,7 @@ class ProjectSeeder extends Seeder
         Project::create( [ 'slug' => 'wohnpark-seeblick', 'title' => 'Wohnpark Seeblick', 'category' => 'collective-housing', 'client' => 'EG Seeblick Bellmund', 'location' => 'Bellmund' ] );
 
         // INDIVIDUAL HOUSINGS
-        Project::create( [ 'slug' => 'chalet-ch-du-clos', 'title' => 'Chemin du Clos', 'category' => 'individual-housing', 'client' => '', 'location' => 'Biel/Bienne' ] );
+        Project::create( [ 'slug' => 'chalet-ch-du-clos', 'title' => 'Chalet au Ch. du Clos', 'category' => 'individual-housing', 'client' => '', 'location' => 'Biel/Bienne' ] );
         Project::create( [ 'slug' => 'maison-affolter', 'title' => 'Maison familiale à Schernelz', 'category' => 'individual-housing', 'client' => 'Affolter', 'location' => 'Schernelz' ] );
         Project::create( [ 'slug' => 'maison-baruselli-coulery', 'title' => 'Maison familiale à Moutier', 'category' => 'individual-housing', 'client' => 'Baruselli-Coulery', 'location' => 'Moutier' ] );
         Project::create( [ 'slug' => 'maison-cartier', 'title' => 'Maison Cartier', 'category' => 'individual-housing', 'client' => '', 'location' => '' ] );

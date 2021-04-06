@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -13,13 +15,13 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Rue du Canal 36-38, Biel/Bienne",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Communauté d'architectes<br>Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "A+P Architekten und Planer, Biel",
+            __('projects.location') => "Rue du Canal 36-38, Biel/Bienne",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Communauté d'architectes<br>Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "A+P Architekten und Planer, Biel",
             "" => "&nbsp;",
-            "Coucours" => "1992",
-            "Réalisation" => "1996 - 1998",
+            __('projects.competition') => "1992",
+            __('projects.realisation') => "1996 - 1998",
         ],
         'figures' => [
             [

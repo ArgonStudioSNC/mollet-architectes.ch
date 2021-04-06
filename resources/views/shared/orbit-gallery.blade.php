@@ -1,4 +1,4 @@
-<div class="reveal full without-overlay" id="reveal-gallery" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
+<div class="reveal full without-overlay" id="reveal-gallery" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast" style="top: 0!important;">
     <div class="orbit" role="region" aria-label="Galerie photo" data-orbit data-options="autoPlay: false; bullets: false; prevClass: my-orbit-previous; nextClass: my-orbit-next;" data-use-m-u-i="false">
         <div class="orbit-wrapper grid-y text-center">
             <div class="cell my-orbit-controls">

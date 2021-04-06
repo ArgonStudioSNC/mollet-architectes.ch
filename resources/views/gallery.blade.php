@@ -1,5 +1,9 @@
 @extends('app')
 
+@isset($category)
+@section('page-title', __('main.'.$category).' - '.__('main.office-full-name'))
+@endisset
+
 @section('content')
     <div class="site-content">
         <div class="object-gallery grid-container">

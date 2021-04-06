@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-3-col', [
@@ -13,39 +15,16 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Les Oeuches 26, 2534 Orvin",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "Zimmermann + Tellenbach SA, Bern",
+            __('projects.location') => "Les Oeuches 26, 2534 Orvin",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "Zimmermann + Tellenbach SA, Bern",
             "" => "&nbsp;",
             "Concours" => "1989",
-            "Début des travaux" => "1989",
-            "Fin des travaux" => "1991",
+            __('projects.construction-start') => "1989",
+            __('projects.construction-end') => "1991",
         ],
         'figures' => [
-            [
-                'alt' => "Coupes et façades",
-                'src' => 'home-d-orvin_coupes-et-facades-1@512.jpg',
-                'media' => [
-                    '512' => 'home-d-orvin_coupes-et-facades-1@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Coupes et façades",
-                'src' => 'home-d-orvin_coupes-et-facades-2@512.jpg',
-                'media' => [
-                    '1024' => 'home-d-orvin_coupes-et-facades-2@2048.jpg',
-                    '512' => 'home-d-orvin_coupes-et-facades-2@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Coupes et façades",
-                'src' => 'home-d-orvin_coupes-et-facades-3@512.jpg',
-                'media' => [
-                    '1024' => 'home-d-orvin_coupes-et-facades-3@2048.jpg',
-                    '512' => 'home-d-orvin_coupes-et-facades-3@1024.jpg',
-                ],
-            ],
             [
                 'alt' => "Image extérieure 1",
                 'src' => 'home-d-orvin_exterieur-1@512.jpg',
@@ -81,6 +60,29 @@
                 'src' => 'home-d-orvin_exterieur-5@512.jpg',
                 'media' => [
                     '512' => 'home-d-orvin_exterieur-5@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Coupes et façades",
+                'src' => 'home-d-orvin_coupes-et-facades-1@512.jpg',
+                'media' => [
+                    '512' => 'home-d-orvin_coupes-et-facades-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Coupes et façades",
+                'src' => 'home-d-orvin_coupes-et-facades-2@512.jpg',
+                'media' => [
+                    '1024' => 'home-d-orvin_coupes-et-facades-2@2048.jpg',
+                    '512' => 'home-d-orvin_coupes-et-facades-2@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Coupes et façades",
+                'src' => 'home-d-orvin_coupes-et-facades-3@512.jpg',
+                'media' => [
+                    '1024' => 'home-d-orvin_coupes-et-facades-3@2048.jpg',
+                    '512' => 'home-d-orvin_coupes-et-facades-3@1024.jpg',
                 ],
             ],
             [

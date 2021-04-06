@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-3-col', [
@@ -12,12 +14,12 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Moutier",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "B. Mertenat et L. Chablais<br>Moutier et Estavayer-le-lac",
+            __('projects.location') => "Moutier",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "B. Mertenat et L. Chablais<br>Moutier et Estavayer-le-lac",
             "" => "&nbsp;",
-            "Exécution" => "1976 - 1980",
+            __('projects.execution') => "1976 - 1980",
         ],
         'figures' => [
             [

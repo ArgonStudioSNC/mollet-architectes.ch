@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -12,12 +14,12 @@
             'consulter la fiche originale' => asset('storage/projects/'.$project->slug.'/fiche.pdf'),
         ],
         'details' => [
-            "Maître de l'ouvrage" => "Communauté de propriétaires, Chemin Vert, Bienne",
-            "Architekt" => "Atelier Cooplan<br>H. Mollet BSA/SIA<br>J.-P. Bechtel, Bienne",
-            "Bauingenieur" => "Mertenat & Chablais, Ing. EPFL<br>Moutier et Estavayer-le-Lac",
+            __('projects.client') => "Communauté de propriétaires, Chemin Vert, Bienne",
+            __('projects.architects') => "Atelier Cooplan<br>H. Mollet BSA/SIA<br>J.-P. Bechtel, Bienne",
+            __('projects.engineer') => "Mertenat & Chablais, Ing. EPFL<br>Moutier et Estavayer-le-Lac",
             "" => "&nbsp;",
-            "Baubeginn" => "Avril 1982",
-            "Bezug" => "Juillet 1983",
+            __('projects.construction-start') => "Avril 1982",
+            __('projects.realisation') => "Juillet 1983",
         ],
         'figures' => [
             [

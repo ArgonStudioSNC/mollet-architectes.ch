@@ -163,6 +163,44 @@ $masonry-css-column-gap: 1rem;
         }
     }
 }
+
+.competitions-table {
+    margin-top: 2rem;
+    th:last-child, td:last-child {
+        padding-right: 0!important;
+        text-align: right;
+    }
+    thead {
+        text-transform: uppercase;
+        border-width: 0 0 1px 0;
+    }
+    tbody {
+        border-width: 0;
+        tr {
+            border-width: 0 0 1px 0;
+        }
+    }
+    td, th {
+        vertical-align: bottom;
+        &:nth-child(1) {
+            width: 40%;
+        }
+        &:nth-child(2) {
+            width: 30%;
+        }
+        &:nth-child(3) {
+            width: 10%;
+        }
+        &:nth-child(4) {
+            width: 10%;
+        }
+        &:nth-child(5) {
+            width: 10%;
+        }
+    }
+}
+
+
 .flex-img {
     width: 100%;
     height: auto;

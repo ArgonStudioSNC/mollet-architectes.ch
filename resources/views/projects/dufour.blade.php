@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -12,12 +14,12 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Dufourstrasse/Brandstrasse, Biel/Bienne",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "H.Katzenstein AG, Solothurn",
+            __('projects.location') => "Dufourstrasse/Brandstrasse, Biel/Bienne",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "H.Katzenstein AG, Solothurn",
             "" => "&nbsp;",
-            "Exécution" => "1995 - 1997",
+            __('projects.execution') => "1995 - 1997",
         ],
         'figures' => [
             [

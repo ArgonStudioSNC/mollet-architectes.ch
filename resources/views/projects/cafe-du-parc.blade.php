@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('page-title', $project->title.' - '.__('main.office-full-name'))
+
 @section('content')
 
     @include('templates.object-2-col', [
@@ -13,12 +15,12 @@
             'consulter la brochure originale' => asset('storage/projects/brochure.pdf#'.$project->slug),
         ],
         'details' => [
-            "Lieu" => "Strandboden, Biel/Bienne",
-            "Maître de l'ouvrage" => $project->client,
-            "Architectes" => "Henri Mollet architectes ass. SA",
-            "Ingénieur civil" => "Mathys & Wysseier, Biel",
+            __('projects.location') => "Strandboden, Biel/Bienne",
+            __('projects.client') => $project->client,
+            __('projects.architects') => "Henri Mollet architectes ass. SA",
+            __('projects.engineer') => "Mathys & Wysseier, Biel",
             "" => "&nbsp;",
-            "Exécution" => "1998 - 1999",
+            __('projects.execution') => "1998 - 1999",
         ],
         'figures' => [
             [

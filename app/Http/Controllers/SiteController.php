@@ -27,6 +27,7 @@ class SiteController extends Controller
     public function publicBuildings()
     {
         return view('gallery')
+        ->with('category', 'public-buildings')
         ->with('projects', Project::where('category', 'public-building')->get());
     }
 
@@ -38,6 +39,7 @@ class SiteController extends Controller
     public function collectiveHousing()
     {
         return view('gallery')
+        ->with('category', 'collective-housing')
         ->with('projects', Project::where('category', 'collective-housing')->get());
     }
 
@@ -49,6 +51,7 @@ class SiteController extends Controller
     public function individualHousing()
     {
         return view('gallery')
+        ->with('category', 'individual-housing')
         ->with('projects', Project::where('category', 'individual-housing')->get());
     }
 
