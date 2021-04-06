@@ -15,6 +15,13 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 5",
+                'src' => 'maison-muhlethaler_exterieur-5@512,jpg',
+                'media' => [
+                    '512' => 'maison-muhlethaler_exterieur-5@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 1",
                 'src' => 'maison-muhlethaler_exterieur-1@512,jpg',
                 'media' => [
@@ -40,13 +47,6 @@
                 'src' => 'maison-muhlethaler_exterieur-4@512,jpg',
                 'media' => [
                     '512' => 'maison-muhlethaler_exterieur-4@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image extérieure 5",
-                'src' => 'maison-muhlethaler_exterieur-5@512,jpg',
-                'media' => [
-                    '512' => 'maison-muhlethaler_exterieur-5@1024.jpg',
                 ],
             ],
             [

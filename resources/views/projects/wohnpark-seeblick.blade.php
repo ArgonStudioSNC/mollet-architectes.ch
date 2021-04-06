@@ -18,20 +18,6 @@
         ],
         'figures' => [
             [
-                'alt' => "Coupe 1",
-                'src' => 'wohnpark-seeblick_coupe-1@512.jpg',
-                'media' => [
-                    '512' => 'wohnpark-seeblick_coupe-1.jpg',
-                ],
-            ],
-            [
-                'alt' => "Façades",
-                'src' => 'wohnpark-seeblick_facades@512.jpg',
-                'media' => [
-                    '512' => 'wohnpark-seeblick_facades.jpg',
-                ],
-            ],
-            [
                 'alt' => "Maquette 1",
                 'src' => 'wohnpark-seeblick_maquette-1@512.jpg',
                 'media' => [
@@ -43,6 +29,20 @@
                 'src' => 'wohnpark-seeblick_maquette-2@512.jpg',
                 'media' => [
                     '512' => 'wohnpark-seeblick_maquette-2.jpg',
+                ],
+            ],
+            [
+                'alt' => "Coupe 1",
+                'src' => 'wohnpark-seeblick_coupe-1@512.jpg',
+                'media' => [
+                    '512' => 'wohnpark-seeblick_coupe-1.jpg',
+                ],
+            ],
+            [
+                'alt' => "Façades",
+                'src' => 'wohnpark-seeblick_facades@512.jpg',
+                'media' => [
+                    '512' => 'wohnpark-seeblick_facades.jpg',
                 ],
             ],
         ],

@@ -25,14 +25,6 @@
         ],
         'figures' => [
             [
-                'alt' => "Coupe",
-                'src' => 'chemin-du-clos_coupe@512.jpg',
-                'media' => [
-                    '1024' => 'chemin-du-clos_coupe@2048.jpg',
-                    '512' => 'chemin-du-clos_coupe@1024.jpg',
-                ],
-            ],
-            [
                 'alt' => "Image extérieur 1",
                 'src' => 'chemin-du-clos_exterieur-1@512.jpg',
                 'media' => [
@@ -54,9 +46,11 @@
                 ],
             ],
             [
-                'alt' => "Image extérieur 4",
-                'src' => 'chemin-du-clos_exterieur-4@512.jpg',
+                'alt' => "Coupe",
+                'src' => 'chemin-du-clos_coupe@512.jpg',
                 'media' => [
+                    '1024' => 'chemin-du-clos_coupe@2048.jpg',
+                    '512' => 'chemin-du-clos_coupe@1024.jpg',
                 ],
             ],
             [
@@ -65,6 +59,12 @@
                 'media' => [
                     '1024' => 'chemin-du-clos_facade-est@2048.jpg',
                     '512' => 'chemin-du-clos_facade-est@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieur 4",
+                'src' => 'chemin-du-clos_exterieur-4@512.jpg',
+                'media' => [
                 ],
             ],
             [

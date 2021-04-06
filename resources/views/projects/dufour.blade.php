@@ -23,6 +23,13 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 6",
+                'src' => 'dufour_exterieur-6@512.jpg',
+                'media' => [
+                    '512' => 'dufour_exterieur-6@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 1",
                 'src' => 'dufour_exterieur-1@512.jpg',
                 'media' => [
@@ -60,13 +67,6 @@
                 'media' => [
                     '1024' => 'dufour_exterieur-5@2048.jpg',
                     '512' => 'dufour_exterieur-5@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image extérieure 6",
-                'src' => 'dufour_exterieur-6@512.jpg',
-                'media' => [
-                    '512' => 'dufour_exterieur-6@1024.jpg',
                 ],
             ],
             [

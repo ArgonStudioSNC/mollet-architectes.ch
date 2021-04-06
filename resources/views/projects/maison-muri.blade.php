@@ -15,6 +15,13 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 3",
+                'src' => 'maison-muri_exterieur-3@512.jpg',
+                'media' => [
+                    '512' => 'maison-muri_exterieur-3@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 1",
                 'src' => 'maison-muri_exterieur-1@512.jpg',
                 'media' => [
@@ -26,13 +33,6 @@
                 'src' => 'maison-muri_exterieur-2@512.jpg',
                 'media' => [
                     '512' => 'maison-muri_exterieur-2@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image extérieure 3",
-                'src' => 'maison-muri_exterieur-3@512.jpg',
-                'media' => [
-                    '512' => 'maison-muri_exterieur-3@1024.jpg',
                 ],
             ],
             [

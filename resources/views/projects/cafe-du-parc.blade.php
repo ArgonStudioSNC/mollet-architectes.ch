@@ -24,6 +24,21 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 1",
+                'src' => 'cafe-du-parc_exterieur-1@512.jpg',
+                'media' => [
+                    '512' => 'cafe-du-parc_exterieur-1.jpg',
+                ],
+            ],
+            [
+                'alt' => "Plan de situation",
+                'src' => 'cafe-du-parc_situation@512.jpg',
+                'media' => [
+                    '1024' => 'cafe-du-parc_situation@2048.jpg',
+                    '512' => 'cafe-du-parc_situation@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Coupes",
                 'src' => 'cafe-du-parc_coupes@512.jpg',
                 'media' => [
@@ -53,14 +68,6 @@
                 'media' => [
                     '1024' => 'cafe-du-parc_coupes@2048.jpg',
                     '512' => 'cafe-du-parc_coupes@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Plan de situation",
-                'src' => 'cafe-du-parc_situation@512.jpg',
-                'media' => [
-                    '1024' => 'cafe-du-parc_situation@2048.jpg',
-                    '512' => 'cafe-du-parc_situation@1024.jpg',
                 ],
             ],
         ],

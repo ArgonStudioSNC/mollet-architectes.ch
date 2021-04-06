@@ -15,6 +15,13 @@
         ],
         'figures' => [
             [
+                'alt' => "Image intérieure 2",
+                'src' => 'maison-baruselli-coulery_interieur-2@512.jpg',
+                'media' => [
+                    '512' => 'maison-baruselli-coulery_interieur-2@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 1",
                 'src' => 'maison-baruselli-coulery_exterieur-1@512.jpg',
                 'media' => [
@@ -35,13 +42,6 @@
                 'src' => 'maison-baruselli-coulery_interieur-1@512.jpg',
                 'media' => [
                     '512' => 'maison-baruselli-coulery_interieur-1@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image intérieure 2",
-                'src' => 'maison-baruselli-coulery_interieur-2@512.jpg',
-                'media' => [
-                    '512' => 'maison-baruselli-coulery_interieur-2@1024.jpg',
                 ],
             ],
             [

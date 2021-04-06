@@ -23,6 +23,14 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 3",
+                'src' => 'maison-cartier_exterieur-3@512.jpg',
+                'media' => [
+                    '1024' => 'maison-cartier_exterieur-3@2048.jpg',
+                    '512' => 'maison-cartier_exterieur-3@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 1",
                 'src' => 'maison-cartier_exterieur-1@512.jpg',
                 'media' => [
@@ -35,22 +43,6 @@
                 'src' => 'maison-cartier_exterieur-2@512.jpg',
                 'media' => [
                     '512' => 'maison-cartier_exterieur-2@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image extérieure 3",
-                'src' => 'maison-cartier_exterieur-3@512.jpg',
-                'media' => [
-                    '1024' => 'maison-cartier_exterieur-3@2048.jpg',
-                    '512' => 'maison-cartier_exterieur-3@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Façades",
-                'src' => 'maison-cartier_facades@512.jpg',
-                'media' => [
-                    '1024' => 'maison-cartier_facades@2048.jpg',
-                    '512' => 'maison-cartier_facades@1024.jpg',
                 ],
             ],
             [
@@ -102,6 +94,14 @@
                 'media' => [
                     '1024' => 'maison-cartier_plans@2048.jpg',
                     '512' => 'maison-cartier_plans@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Façades",
+                'src' => 'maison-cartier_facades@512.jpg',
+                'media' => [
+                    '1024' => 'maison-cartier_facades@2048.jpg',
+                    '512' => 'maison-cartier_facades@1024.jpg',
                 ],
             ],
         ],

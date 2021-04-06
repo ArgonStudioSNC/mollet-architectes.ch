@@ -24,6 +24,20 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 1",
+                'src' => 'magasin-loeb_exterieur-1@512.jpg',
+                'media' => [
+                    '512' => 'magasin-loeb_exterieur-1.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image intérieure 1",
+                'src' => 'magasin-loeb_interieur-1@512.jpg',
+                'media' => [
+                    '512' => 'magasin-loeb_interieur-1.jpg',
+                ],
+            ],
+            [
                 'alt' => "2e Obergeschoss",
                 'src' => 'magasin-loeb_2-obergeschoss@512.jpg',
                 'media' => [
@@ -56,13 +70,6 @@
                 ],
             ],
             [
-                'alt' => "Image extérieure 1",
-                'src' => 'magasin-loeb_exterieur-1@512.jpg',
-                'media' => [
-                    '512' => 'magasin-loeb_exterieur-1.jpg',
-                ],
-            ],
-            [
                 'alt' => "Image extérieure 2",
                 'src' => 'magasin-loeb_exterieur-2.jpg',
                 'media' => [
@@ -72,6 +79,26 @@
                 'alt' => "Image extérieure 3",
                 'src' => 'magasin-loeb_exterieur-3.jpg',
                 'media' => [
+                ],
+            ],
+            [
+                'alt' => "Kuppel 1",
+                'src' => 'magasin-loeb_kuppel-1.jpg',
+                'media' => [
+                ],
+            ],
+            [
+                'alt' => "Kuppel 2",
+                'src' => 'magasin-loeb_kuppel-2.jpg',
+                'media' => [
+                ],
+            ],
+            [
+                'alt' => "Schnitt",
+                'src' => 'magasin-loeb_schnitt@512.jpg',
+                'media' => [
+                    '1024' => 'magasin-loeb_schnitt@2048.jpg',
+                    '512' => 'magasin-loeb_schnitt@1024.jpg',
                 ],
             ],
             [
@@ -104,33 +131,6 @@
                 'media' => [
                     '1024' => 'magasin-loeb_fassade-nidaugasse@2048.jpg',
                     '512' => 'magasin-loeb_fassade-nidaugasse@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image intérieure 1",
-                'src' => 'magasin-loeb_interieur-1@512.jpg',
-                'media' => [
-                    '512' => 'magasin-loeb_interieur-1.jpg',
-                ],
-            ],
-            [
-                'alt' => "Kuppel 1",
-                'src' => 'magasin-loeb_kuppel-1.jpg',
-                'media' => [
-                ],
-            ],
-            [
-                'alt' => "Kuppel 2",
-                'src' => 'magasin-loeb_kuppel-2.jpg',
-                'media' => [
-                ],
-            ],
-            [
-                'alt' => "Schnitt",
-                'src' => 'magasin-loeb_schnitt@512.jpg',
-                'media' => [
-                    '1024' => 'magasin-loeb_schnitt@2048.jpg',
-                    '512' => 'magasin-loeb_schnitt@1024.jpg',
                 ],
             ],
         ],
