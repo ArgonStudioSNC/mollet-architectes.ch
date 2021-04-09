@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('page-title', $project->title.' - '.__('main.office-full-name'))
+@section('page-title', $project->name.' - '.__('main.office-full-name'))
 
 @section('content')
 

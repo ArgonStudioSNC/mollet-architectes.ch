@@ -14,4 +14,14 @@ return [
     'realisation' => 'Bezug',
     'expert' => 'Spezialisten',
 
+    'read-the-brochure' => 'zur Original-Broschüre',
+    'read-the-sheet' => 'zur Originaldatei',
+
+    'winning' => 'gewonnene Wettbewerbe',
+    'award-winning' => 'Ausgezeichnete Projekte',
+    'other' => 'andere Leistungen - Projekte',
+    'year' => 'Jahr',
+    'awards' => 'Auszeichnung',
+    'prize' => 'Preis',
+
 ];

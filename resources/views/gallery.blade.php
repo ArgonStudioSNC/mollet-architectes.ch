@@ -15,7 +15,7 @@
                         @if (isset($hideTitle))
                             &nbsp;
                         @else
-                            {{ $project->title }}
+                            {{ $project->name }}
                         @endif
                     </div>
                 </a>

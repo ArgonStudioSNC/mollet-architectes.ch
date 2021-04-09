@@ -15,11 +15,11 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->string('slug');
-            $table->string('title');
-            $table->enum('category', ['public-building', 'individual-housing', 'collective-housing']);
+            $table->string('slug')->unique();
+            $table->string('name');
+            $table->enum('category', ['public-building', 'individual-housing', 'collective-housing'])->nullable();
             $table->string('client')->nullable();
-            $table->string('location');
+            $table->string('location')->nullable();
             $table->timestamps();
         });
     }

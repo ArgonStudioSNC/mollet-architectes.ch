@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('page-title', $project->title.' - '.__('main.office-full-name'))
+@section('page-title', $project->name.' - '.__('main.office-full-name'))
 
 @section('content')
 
@@ -18,6 +18,7 @@
                 'alt' => "Image extérieure 1",
                 'src' => 'maison-montavon_exterieur-1@512.jpg',
                 'media' => [
+                    '1024' => 'maison-montavon_exterieur-1.jpg',
                     '512' => 'maison-montavon_exterieur-1@1024.jpg',
                 ],
             ],

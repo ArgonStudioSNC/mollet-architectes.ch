@@ -2,16 +2,26 @@
 
 return [
 
-    'location' => 'Lieu',
-    'client' => 'Maître de l\'ouvrage',
-    'architects' => 'Architectes',
-    'engineer' => 'Ingénieur civil',
-    'competition' => 'Coucours',
-    'construction-start' => 'Début des travaux',
-    'construction-end' => 'Fin des travaux',
-    'conception' => 'Conception',
-    'execution' => 'Exécution',
-    'realisation' => 'Réalisation',
-    'expert' => 'Spécialistes',
+    'location' => 'lieu',
+    'client' => 'maître de l\'ouvrage',
+    'architects' => 'architectes',
+    'engineer' => 'ingénieur civil',
+    'competition' => 'coucours',
+    'construction-start' => 'début des travaux',
+    'construction-end' => 'fin des travaux',
+    'conception' => 'conception',
+    'execution' => 'exécution',
+    'realisation' => 'réalisation',
+    'expert' => 'spécialistes',
+
+    'read-the-brochure' => 'consulter la brochure originale',
+    'read-the-sheet' => 'consulter la fiche originale',
+
+    'winning' => 'concours gagnants',
+    'award-winning' => 'projets primés',
+    'other' => 'autres réalisations - projets',
+    'year' => 'année',
+    'awards' => 'distinctions',
+    'prize' => 'prix',
 
 ];

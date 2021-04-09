@@ -15,7 +15,7 @@ class SiteController extends Controller
     public function welcome()
     {
         return view('gallery')
-        ->with('projects', Project::all()->shuffle())
+        ->with('projects', Project::all())
         ->with('hideTitle', true);
     }
 

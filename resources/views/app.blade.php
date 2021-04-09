@@ -9,7 +9,7 @@
 
     <title>@yield('page-title', __('main.office-full-name'))</title>
     <meta name="description"
-    content="@yield('page-description', __('main.site-description'))">
+    content="@yield('page-description', __('main.description-home'))">
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css">
@@ -31,18 +31,18 @@
                             <a href="{{ route('welcome') }}">{{ __('main.office-full-name') }}</a>
                         </div>
                         <div class="cell auto text-right">
-                            <button class="clear button" type="button" data-toggle="dropdown-menu">Menu</button>
+                            <button class="clear button" type="button" data-toggle="dropdown-menu">{{ __('main.menu') }}.</button>
                         </div>
                     </div>
                 </div>
                 <div id="dropdown-menu" data-toggler=".show">
                     <div class="grid-container">
                         <ul class="no-bullet">
-                            <li><a href="{{ route('public-buildings') }}">{{ __('main.public-buildings') }}</a></li>
-                            <li><a href="{{ route('collective-housing') }}">{{ __('main.collective-housing') }}</a></li>
-                            <li><a href="{{ route('individual-housing') }}">{{ __('main.individual-housing') }}</a></li>
-                            <li><a href="{{ route('competitions') }}">{{ __('main.competitions') }}</a></li>
-                            <li><a href="{{ route('office') }}">{{ __('main.office') }}</a></li>
+                            <li><a href="{{ route('public-buildings') }}">{{ __('main.public-buildings') }}.</a></li>
+                            <li><a href="{{ route('collective-housing') }}">{{ __('main.collective-housing') }}.</a></li>
+                            <li><a href="{{ route('individual-housing') }}">{{ __('main.individual-housing') }}.</a></li>
+                            <li><a href="{{ route('competitions') }}">{{ __('main.competitions') }}.</a></li>
+                            <li><a href="{{ route('office') }}">{{ __('main.office') }}.</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,11 +70,11 @@
                     <div class="cell auto"></div>
                     <div class="cell large-3 xxlarge-2">
                         <ul class="no-bullet">
-                            <li><a href="{{ route('public-buildings') }}">{{ __('main.public-buildings') }}</a></li>
-                            <li><a href="{{ route('collective-housing') }}">{{ __('main.collective-housing') }}</a></li>
-                            <li><a href="{{ route('individual-housing') }}">{{ __('main.individual-housing') }}</a></li>
-                            <li><a href="{{ route('competitions') }}">{{ __('main.competitions') }}</a></li>
-                            <li><a href="{{ route('office') }}">{{ __('main.office') }}</a></li>
+                            <li><a href="{{ route('public-buildings') }}">{{ __('main.public-buildings') }}.</a></li>
+                            <li><a href="{{ route('collective-housing') }}">{{ __('main.collective-housing') }}.</a></li>
+                            <li><a href="{{ route('individual-housing') }}">{{ __('main.individual-housing') }}.</a></li>
+                            <li><a href="{{ route('competitions') }}">{{ __('main.competitions') }}.</a></li>
+                            <li><a href="{{ route('office') }}">{{ __('main.office') }}.</a></li>
                         </ul>
                     </div>
                 </div>
@@ -84,9 +84,9 @@
 
     @yield('content')
 
-    <footer id="site-footer">
-        <div class="grid-container hide-for-large">
-            <ul class="contact no-bullet">
+    <footer id="site-footer" class="align-self-bottom">
+        <div class="grid-container">
+            <ul class="contact no-bullet hide-for-large">
                 <li><a href="{{ route('welcome') }}">{{ __('main.office-full-name') }}</a></li>
                 <li><a href="{{ route('welcome') }}">{{ __('main.office-address') }}</a></li>
                 <li><a href="{{ route('welcome') }}">2502 Biel/Bienne</a></li>

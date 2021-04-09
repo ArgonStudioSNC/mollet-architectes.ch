@@ -3,15 +3,15 @@
         <div class="orbit-wrapper grid-y text-center">
             <div class="cell my-orbit-controls">
                 <button class="my-orbit-previous">
-                    <span class="show-for-sr">Image précédente</span>
+                    <span class="show-for-sr">previous</span>
                     <div class="arrow-left"><?php echo Storage::get("/icons/arrow-left.svg"); ?></div>
                 </button>
                 <button class="my-orbit-close" data-close aria-label="Fermer la galerie" type="button">
-                    <span class="show-for-sr">Fermer la galerie</span>
+                    <span class="show-for-sr">close</span>
                     <div class="cross"><?php echo Storage::get("/icons/cross.svg"); ?></div>
                 </button>
                 <button class="my-orbit-next">
-                    <span class="show-for-sr">Image suivante</span>
+                    <span class="show-for-sr">next</span>
                     <div class="arrow-right"><?php echo Storage::get("/icons/arrow-left.svg"); ?></div>
                 </button>
             </div>

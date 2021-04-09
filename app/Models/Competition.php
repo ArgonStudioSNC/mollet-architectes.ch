@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Project extends Model
+class Competition extends Model
 {
     use HasFactory;
 
@@ -15,10 +15,12 @@ class Project extends Model
      * @var array
      */
     protected $fillable = [
-        'name',
         'category',
-        'client',
+        'name',
         'location',
+        'year',
+        'award',
+        'volume',
     ];
 
     /**
@@ -26,8 +28,8 @@ class Project extends Model
      *
      * @var array
      */
-     public function competition() {
-         return $this->hasOne('App\Models\Competition');
+     public function project() {
+         return $this->belongsTo('App\Models\Project');
      }
 
 }

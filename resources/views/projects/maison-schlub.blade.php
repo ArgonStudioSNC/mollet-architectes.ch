@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('page-title', $project->title.' - '.__('main.office-full-name'))
+@section('page-title', $project->name.' - '.__('main.office-full-name'))
 
 @section('content')
 
@@ -18,6 +18,7 @@
                 'alt' => "Image extérieure 1",
                 'src' => 'maison-schlub_exterieur-1@512.jpg',
                 'media' => [
+                    '2048' => 'maison-schlub_exterieur-1.jpg',
                     '1024' => 'maison-schlub_exterieur-1@2048.jpg',
                     '512' => 'maison-schlub_exterieur-1@1024.jpg',
                 ],
@@ -26,6 +27,7 @@
                 'alt' => "Image extérieure 2",
                 'src' => 'maison-schlub_exterieur-2@512.jpg',
                 'media' => [
+                    '2048' => 'maison-schlub_exterieur-2.jpg',
                     '1024' => 'maison-schlub_exterieur-2@2048.jpg',
                     '512' => 'maison-schlub_exterieur-2@1024.jpg',
                 ],
@@ -34,6 +36,7 @@
                 'alt' => "Image extérieure 3",
                 'src' => 'maison-schlub_exterieur-3@512.jpg',
                 'media' => [
+                    '2048' => 'maison-schlub_exterieur-3.jpg',
                     '1024' => 'maison-schlub_exterieur-3@2048.jpg',
                     '512' => 'maison-schlub_exterieur-3@1024.jpg',
                 ],

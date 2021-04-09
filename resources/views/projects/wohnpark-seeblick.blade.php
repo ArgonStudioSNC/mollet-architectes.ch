@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('page-title', $project->title.' - '.__('main.office-full-name'))
+@section('page-title', $project->name.' - '.__('main.office-full-name'))
 
 @section('content')
 
@@ -12,7 +12,7 @@
         'files' => [
         ],
         'details' => [
-            __('projects.location') => "Bellmund",
+            __('projects.location') => $project->location,
             __('projects.client') => $project->client,
             __('projects.architects') => "Henri Mollet architectes ass. SA",
         ],
