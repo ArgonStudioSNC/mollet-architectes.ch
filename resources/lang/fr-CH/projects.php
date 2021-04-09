@@ -24,4 +24,9 @@ return [
     'awards' => 'distinctions',
     'prize' => 'prix',
 
+    'competition-title' => "Principales réalisations et concours de 1982 à 1997",
+
+    'nmb-bienne-tes-souvenirs-subheader' => "Présentation au Nouveau Musée Bienne",
+    'chemin-du-clos-review' => "revue « Architecture Suisse » de Juillet 1992",
+    
 ];

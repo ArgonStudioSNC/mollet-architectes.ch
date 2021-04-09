@@ -34,7 +34,7 @@ $figures = [
                         <div class="masonry-css-item">
                             <div class="object-content">
                                 <h3>«Architecture entre utopie et politique: expériences biennoises»</h3>
-                                <h3 class="subheader">Présentation au Nouveau Musée Bienne</h3>
+                                <h3 class="subheader">@lang('projects.nmb-bienne-tes-souvenirs-subheader')</h3>
                                 <div class="object-description">
                                     <p>14.11.2019</p>
                                     <p>Bienne, tes souvenirs. Deux fois par an, l'Association des Amis invite des personnalités biennoise, dans le cadre de la série de manifestations «Bienne, tes souvenirs» de parler des souvenirs personnels. De cette façon, on crée une image historique vivante avec une coloration personnelle, qui ne peut être trouvée dans aucun livre d'histoire.

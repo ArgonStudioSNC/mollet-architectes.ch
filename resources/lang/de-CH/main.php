@@ -2,7 +2,7 @@
 
 return [
 
-    'menu' => 'menu',
+    'menu' => 'Menü',
 
     'office-short-name' => 'Mollet Architectes',
     'office-full-name' => 'Henri Mollet Architectes Associés',

@@ -14,7 +14,7 @@
         ],
         'files' => [
             __('projects.read-the-brochure') => asset('storage/projects/brochure.pdf#'.$project->slug),
-            'revue "Architecture Suisse" de Juillet 1992' => asset('storage/projects/'.$project->slug.'/architecture-suisse.pdf'),
+            __('projects.chemin-du-clos-review') => asset('storage/projects/'.$project->slug.'/architecture-suisse.pdf'),
         ],
         'details' => [
             __('projects.location') => $project->location,

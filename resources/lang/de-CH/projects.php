@@ -24,4 +24,9 @@ return [
     'awards' => 'Auszeichnung',
     'prize' => 'Preis',
 
+    'competition-title' => "Wichtigste Leistungen und Wettbewerbe von 1982 bis 1997",
+
+    'nmb-bienne-tes-souvenirs-subheader' => "Vortrag im Neues Museum Biel",
+    'chemin-du-clos-review' => "Fachblatt « Architecture Suisse » vom Juli 1992",
+
 ];

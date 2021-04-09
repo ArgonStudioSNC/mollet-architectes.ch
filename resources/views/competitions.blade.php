@@ -15,11 +15,11 @@ use App\Models\Competition;
             <div class="grid-x grid-margin-x grid-margin-y">
                 <div class="cell">
                     <div class="object-content">
-                        <h3>Principales réalisations et concours de 1982 à 1997</h3>
+                        <h3>@lang('projects.competition-title')</h3>
                         <h3 class="subheader"></h3>
                         <div class="object-brochure">
                             <div>
-                                <a href="{{ asset('storage/projects/brochure.pdf#concours') }}" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp;<span class="underline">{{ __('projects.read-the-brochure') }}</span></a>
+                                <a href="{{ asset('storage/projects/brochure.pdf#concours') }}" target="_blank"><i class="fas fa-file-pdf"></i>&nbsp;<span class="underline">@lang('projects.read-the-brochure')</span></a>
                             </div>
                         </div>
 
@@ -27,10 +27,10 @@ use App\Models\Competition;
                         <div class="competitions-table grid-y">
                             <div class="cell">
                                 <div class="competitions-table-head grid-x">
-                                    <div class="cell large-5">{{ __('projects.'.$val->category) }}</div>
-                                    <div class="cell large-4 show-for-large">{{ __('projects.location') }}</div>
-                                    <div class="cell large-1 show-for-large">{{ __('projects.year') }}</div>
-                                    <div class="cell large-1 show-for-large">{{ __('projects.prize') }}</div>
+                                    <div class="cell large-5">@lang('projects.'.$val->category)</div>
+                                    <div class="cell large-4 show-for-large">@lang('projects.location')</div>
+                                    <div class="cell large-1 show-for-large">@lang('projects.year')</div>
+                                    <div class="cell large-1 show-for-large">@lang('projects.prize')</div>
                                     <div class="cell large-1 show-for-large"></div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ use App\Models\Competition;
                         <div class="competitions-table grid-y">
                             <div class="cell">
                                 <div class="competitions-table-head grid-x">
-                                    <div class="cell">{{ __('projects.awards') }}</div>
+                                    <div class="cell">@lang('projects.awards') }}</div>
                                 </div>
                             </div>
                             <div class="cell">

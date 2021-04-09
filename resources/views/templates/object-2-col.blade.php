@@ -35,7 +35,7 @@ $dir = 'storage'.DIRECTORY_SEPARATOR.'projects'.DIRECTORY_SEPARATOR.$project->sl
                             </div>
                             <div class="object-data grid-x">
                                 @foreach ($details as $key => $value)
-                                    <div class="cell small-5">{{ $key }}.</div>
+                                    <div class="cell small-5 text-lowercase">{{ $key }}@if($key!="").@endif</div>
                                     <div class="cell small-7">{!! $value !!}</div>
                                 @endforeach
                             </div>

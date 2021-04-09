@@ -28,21 +28,21 @@
                 <div class="grid-container">
                     <div class="menu-small grid-x align-middle">
                         <div class="cell shrink">
-                            <a href="{{ route('welcome') }}">{{ __('main.office-full-name') }}</a>
+                            <a href="{{ route('welcome') }}">@lang('main.office-full-name')</a>
                         </div>
                         <div class="cell auto text-right">
-                            <button class="clear button" type="button" data-toggle="dropdown-menu">{{ __('main.menu') }}.</button>
+                            <button class="clear button text-lowercase" type="button" data-toggle="dropdown-menu">@lang('main.menu').</button>
                         </div>
                     </div>
                 </div>
                 <div id="dropdown-menu" data-toggler=".show">
                     <div class="grid-container">
-                        <ul class="no-bullet">
-                            <li><a href="{{ route('public-buildings') }}">{{ __('main.public-buildings') }}.</a></li>
-                            <li><a href="{{ route('collective-housing') }}">{{ __('main.collective-housing') }}.</a></li>
-                            <li><a href="{{ route('individual-housing') }}">{{ __('main.individual-housing') }}.</a></li>
-                            <li><a href="{{ route('competitions') }}">{{ __('main.competitions') }}.</a></li>
-                            <li><a href="{{ route('office') }}">{{ __('main.office') }}.</a></li>
+                        <ul class="no-bullet text-lowercase">
+                            <li><a href="{{ route('public-buildings') }}">@lang('main.public-buildings').</a></li>
+                            <li><a href="{{ route('collective-housing') }}">@lang('main.collective-housing').</a></li>
+                            <li><a href="{{ route('individual-housing') }}">@lang('main.individual-housing').</a></li>
+                            <li><a href="{{ route('competitions') }}">@lang('main.competitions').</a></li>
+                            <li><a href="{{ route('office') }}">@lang('main.office').</a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
             <div class="sticky-slider-wrapper">
                 <div class="grid-container">
                     <div class="menu-small grid-x align-middle">
-                        <a href="{{ route('welcome') }}">{{ __('main.office-full-name') }}</a>
+                        <a href="{{ route('welcome') }}">@lang('main.office-full-name')</a>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@
                 <div class="grid-x grid-margin-x">
                     <div class="cell large-6">
                         <ul class="contact no-bullet">
-                            <li><a href="{{ route('welcome') }}">{{ __('main.office-full-name') }}</a></li>
-                            <li><a href="{{ route('welcome') }}">{{ __('main.office-address') }}</a></li>
+                            <li><a href="{{ route('welcome') }}">@lang('main.office-full-name')</a></li>
+                            <li><a href="{{ route('welcome') }}">@lang('main.office-address')</a></li>
                             <li><a href="{{ route('welcome') }}">2502 Biel/Bienne</a></li>
                             <li><a href="tel:+41323238067">T 032 323 80 67</a></li>
                             <li><a style="text-decoration: underline" href="mailto:henrimollet53@gmail.com">e-mail</a></li>
@@ -69,12 +69,12 @@
                     </div>
                     <div class="cell auto"></div>
                     <div class="cell large-3 xxlarge-2">
-                        <ul class="no-bullet">
-                            <li><a href="{{ route('public-buildings') }}">{{ __('main.public-buildings') }}.</a></li>
-                            <li><a href="{{ route('collective-housing') }}">{{ __('main.collective-housing') }}.</a></li>
-                            <li><a href="{{ route('individual-housing') }}">{{ __('main.individual-housing') }}.</a></li>
-                            <li><a href="{{ route('competitions') }}">{{ __('main.competitions') }}.</a></li>
-                            <li><a href="{{ route('office') }}">{{ __('main.office') }}.</a></li>
+                        <ul class="no-bullet text-lowercase">
+                            <li><a href="{{ route('public-buildings') }}">@lang('main.public-buildings').</a></li>
+                            <li><a href="{{ route('collective-housing') }}">@lang('main.collective-housing').</a></li>
+                            <li><a href="{{ route('individual-housing') }}">@lang('main.individual-housing').</a></li>
+                            <li><a href="{{ route('competitions') }}">@lang('main.competitions').</a></li>
+                            <li><a href="{{ route('office') }}">@lang('main.office').</a></li>
                         </ul>
                     </div>
                 </div>
@@ -87,8 +87,8 @@
     <footer id="site-footer" class="align-self-bottom">
         <div class="grid-container">
             <ul class="contact no-bullet hide-for-large">
-                <li><a href="{{ route('welcome') }}">{{ __('main.office-full-name') }}</a></li>
-                <li><a href="{{ route('welcome') }}">{{ __('main.office-address') }}</a></li>
+                <li><a href="{{ route('welcome') }}">@lang('main.office-full-name')</a></li>
+                <li><a href="{{ route('welcome') }}">@lang('main.office-address')</a></li>
                 <li><a href="{{ route('welcome') }}">2502 Biel/Bienne</a></li>
                 <li><a href="tel:+41323238067">T 032 323 80 67</a></li>
                 <li><a style="text-decoration: underline" href="mailto:henrimollet53@gmail.com">e-mail</a></li>

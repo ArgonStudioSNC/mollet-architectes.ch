@@ -14,10 +14,18 @@ use App\Http\Controllers\SiteController;
 |
 */
 
-Route::get('/', [SiteController::class, 'welcome'])->name('welcome');
-Route::get('/batiments-publics', [SiteController::class, 'publicBuildings'])->name('public-buildings');
-Route::get('/habitations-collectives', [SiteController::class, 'collectiveHousing'])->name('collective-housing');
-Route::get('/habitations-individuelles', [SiteController::class, 'individualHousing'])->name('individual-housing');
-Route::get('/coucours', [SiteController::class, 'competitions'])->name('competitions');
-Route::get('/bureau', [SiteController::class, 'office'])->name('office');
-Route::get('/projet/{slug}', [SiteController::class, 'project'])->name('project');
+Route::group(
+    [
+        'prefix' => LaravelLocalization::setLocale(),
+        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ], function()
+    {
+        Route::get('/', [SiteController::class, 'welcome'])->name('welcome');
+        Route::get('/batiments-publics', [SiteController::class, 'publicBuildings'])->name('public-buildings');
+        Route::get('/habitations-collectives', [SiteController::class, 'collectiveHousing'])->name('collective-housing');
+        Route::get('/habitations-individuelles', [SiteController::class, 'individualHousing'])->name('individual-housing');
+        Route::get('/coucours', [SiteController::class, 'competitions'])->name('competitions');
+        Route::get('/bureau', [SiteController::class, 'office'])->name('office');
+        Route::get('/projet/{slug}', [SiteController::class, 'project'])->name('project');
+    }
+);
