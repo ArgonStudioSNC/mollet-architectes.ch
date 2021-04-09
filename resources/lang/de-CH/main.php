@@ -11,7 +11,7 @@ return [
     'public-buildings' => 'öffentliche Gebäude',
     'collective-housing' => 'Mehrfamilienhäuser',
     'individual-housing' => 'einzelne Häuser',
-    'competitions' => 'Wettbewerb',
+    'competitions' => 'Wettbewerbe',
     'office' => 'Büro',
 
     'description-home' => "Ein Archiv der Wettbewerbe und Leistungen des Bieler Architekturbüros « Henri Mollet Architectes Associés SA », von 1982 bis 2018.",
