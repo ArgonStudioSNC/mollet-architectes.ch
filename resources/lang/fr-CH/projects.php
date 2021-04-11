@@ -6,7 +6,7 @@ return [
     'client' => 'maître de l\'ouvrage',
     'architects' => 'architectes',
     'engineer' => 'ingénieur civil',
-    'competition' => 'coucours',
+    'competition' => 'concours',
     'construction-start' => 'début des travaux',
     'construction-end' => 'fin des travaux',
     'conception' => 'conception',
@@ -28,5 +28,5 @@ return [
 
     'nmb-bienne-tes-souvenirs-subheader' => "Présentation au Nouveau Musée Bienne",
     'chemin-du-clos-review' => "revue « Architecture Suisse » de Juillet 1992",
-    
+
 ];

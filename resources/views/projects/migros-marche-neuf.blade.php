@@ -9,7 +9,7 @@
         'header' => "Immeuble commercial et d'habitation\"Migros Marché-Neuf\", Biel/Bienne",
         'subheader' => "",
         'description' => [
-            "Situé dans un angle important dans le contexte urbain, le bâtiment relie les deux rues principales par sa façade. Le complexe abrite un magasin Migras, des salles de cours ainsi que des appartements. Des zones de vente extérieures animent la transition entre l’espace public du trottoir et l’intérieur du bâtiment.",
+            "Situé dans un angle important dans le contexte urbain, le bâtiment relie les deux rues principales par sa façade. Le complexe abrite un magasin Migros, des salles de cours ainsi que des appartements. Des zones de vente extérieures animent la transition entre l’espace public du trottoir et l’intérieur du bâtiment.",
             "An einer städtebaulich bedeutenden Ecke im Stadtzentrum gelegen, verbindet das Gebäude mit seiner umlaufenden Fassade die beiden flankierenden Strassenzüge. Es beinhaltet Laden- und Schulungsräume sowie ein Restaurant. Bei der Sockelgestaltung wurde Wert darauf gelegt, dass rückspringende Zonen mit Aussenverkauf einen fliessenden Übergang zwischen Trottoir und Innenraum bilden.",
         ],
         'files' => [
