@@ -39,7 +39,7 @@ $figures = [
                                     <p>14.11.2019</p>
                                     <p>Bienne, tes souvenirs. Deux fois par an, l'Association des Amis invite des personnalités biennoise, dans le cadre de la série de manifestations «Bienne, tes souvenirs» de parler des souvenirs personnels. De cette façon, on crée une image historique vivante avec une coloration personnelle, qui ne peut être trouvée dans aucun livre d'histoire.
                                     </p>
-                                    <p>Zweimal im Jahr lädt der Verein der Freunde des NMB Neues Museum Biel Persönlichkeiten aus der Region Biel ein, im Rahmen der Veranstaltungsreihe «Biel, erzählt» aus ihren persönlichen Erinnerungen zu berichten. So entsteht puzzelartig ein lebendiges Geschichtsbild mit persönlichem Kolorit, das in keinem Geschichtsbuch zu finden ist.
+                                    <p>Biel, erzählt. Zweimal im Jahr lädt der Verein der Freunde des NMB Neues Museum Biel Persönlichkeiten aus der Region Biel ein, im Rahmen der Veranstaltungsreihe «Biel, erzählt» aus ihren persönlichen Erinnerungen zu berichten. So entsteht puzzelartig ein lebendiges Geschichtsbild mit persönlichem Kolorit, das in keinem Geschichtsbuch zu finden ist.
                                     </p>
                                 </div>
                             </div>

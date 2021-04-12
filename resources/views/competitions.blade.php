@@ -56,7 +56,7 @@ use App\Models\Competition;
                         <div class="competitions-table grid-y">
                             <div class="cell">
                                 <div class="competitions-table-head grid-x">
-                                    <div class="cell">@lang('projects.awards') }}</div>
+                                    <div class="cell">@lang('projects.awards')</div>
                                 </div>
                             </div>
                             <div class="cell">
