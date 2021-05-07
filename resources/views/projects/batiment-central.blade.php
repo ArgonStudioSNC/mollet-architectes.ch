@@ -13,7 +13,7 @@
         ],
         'files' => [
             __('projects.read-the-brochure') => asset('storage/projects/brochure.pdf#'.$project->slug),
-            'plans de l\'ouvrage' => asset('storage/projects/'.$project->slug.'/plans.pdf'),
+            __('projects.see-the-drawings') => asset('storage/projects/'.$project->slug.'/plans.pdf'),
         ],
         'details' => [
             __('projects.location') => $project->location,

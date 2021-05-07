@@ -26,27 +26,30 @@
         ],
         'figures' => [
             [
-                'alt' => "Image extérieur 1",
-                'src' => 'chemin-du-clos_exterieur-1@512.jpg',
+                'alt' => "Image extérieure 10",
+                'src' => 'chemin-du-clos_exterieur-10@512.jpg',
                 'media' => [
-                    '1024' => 'chemin-du-clos_exterieur-1.jpg',
-                    '512' => 'chemin-du-clos_exterieur-1@1024.jpg',
+                    '2048' => 'chemin-du-clos_exterieur-10.jpg',
+                    '1024' => 'chemin-du-clos_exterieur-10@2048.jpg',
+                    '512' => 'chemin-du-clos_exterieur-10@1024.jpg',
                 ],
             ],
             [
-                'alt' => "Image extérieur 2",
-                'src' => 'chemin-du-clos_exterieur-2@512.jpg',
+                'alt' => "Image extérieure 7",
+                'src' => 'chemin-du-clos_exterieur-7@512.jpg',
                 'media' => [
-                    '1024' => 'chemin-du-clos_exterieur-2.jpg',
-                    '512' => 'chemin-du-clos_exterieur-2@1024.jpg',
+                    '2048' => 'chemin-du-clos_exterieur-7.jpg',
+                    '1024' => 'chemin-du-clos_exterieur-7@2048.jpg',
+                    '512' => 'chemin-du-clos_exterieur-7@1024.jpg',
                 ],
             ],
             [
-                'alt' => "Image extérieur 3",
-                'src' => 'chemin-du-clos_exterieur-3@512.jpg',
+                'alt' => "Image extérieure 8",
+                'src' => 'chemin-du-clos_exterieur-8@512.jpg',
                 'media' => [
-                    '1024' => 'chemin-du-clos_exterieur-3.jpg',
-                    '512' => 'chemin-du-clos_exterieur-3@1024.jpg',
+                    '2048' => 'chemin-du-clos_exterieur-8.jpg',
+                    '1024' => 'chemin-du-clos_exterieur-8@2048.jpg',
+                    '512' => 'chemin-du-clos_exterieur-8@1024.jpg',
                 ],
             ],
             [
@@ -68,10 +71,39 @@
                 ],
             ],
             [
-                'alt' => "Image extérieur 4",
-                'src' => 'chemin-du-clos_exterieur-4@512.jpg',
+                'alt' => "Image extérieure 5",
+                'src' => 'chemin-du-clos_exterieur-5@512.jpg',
                 'media' => [
-                    '512' => 'chemin-du-clos_exterieur-4.jpg',
+                    '2048' => 'chemin-du-clos_exterieur-5.jpg',
+                    '1024' => 'chemin-du-clos_exterieur-5@2048.jpg',
+                    '512' => 'chemin-du-clos_exterieur-5@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image interieure 2",
+                'src' => 'chemin-du-clos_interieur-2@512.jpg',
+                'media' => [
+                    '2048' => 'chemin-du-clos_interieur-2.jpg',
+                    '1024' => 'chemin-du-clos_interieur-2@2048.jpg',
+                    '512' => 'chemin-du-clos_interieur-2@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image interieure 3",
+                'src' => 'chemin-du-clos_interieur-3@512.jpg',
+                'media' => [
+                    '2048' => 'chemin-du-clos_interieur-3.jpg',
+                    '1024' => 'chemin-du-clos_interieur-3@2048.jpg',
+                    '512' => 'chemin-du-clos_interieur-3@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image interieure 1",
+                'src' => 'chemin-du-clos_interieur-1@512.jpg',
+                'media' => [
+                    '2048' => 'chemin-du-clos_interieur-1.jpg',
+                    '1024' => 'chemin-du-clos_interieur-1@2048.jpg',
+                    '512' => 'chemin-du-clos_interieur-1@1024.jpg',
                 ],
             ],
             [
@@ -117,6 +149,31 @@
                     '2048' => 'chemin-du-clos_plan-3.jpg',
                     '1024' => 'chemin-du-clos_plan-3@2048.jpg',
                     '512' => 'chemin-du-clos_plan-3@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 4",
+                'src' => 'chemin-du-clos_exterieur-4@512.jpg',
+                'media' => [
+                    '512' => 'chemin-du-clos_exterieur-4.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 6",
+                'src' => 'chemin-du-clos_exterieur-6@512.jpg',
+                'media' => [
+                    '2048' => 'chemin-du-clos_exterieur-6.jpg',
+                    '1024' => 'chemin-du-clos_exterieur-6@2048.jpg',
+                    '512' => 'chemin-du-clos_exterieur-6@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 9",
+                'src' => 'chemin-du-clos_exterieur-9@512.jpg',
+                'media' => [
+                    '2048' => 'chemin-du-clos_exterieur-9.jpg',
+                    '1024' => 'chemin-du-clos_exterieur-9@2048.jpg',
+                    '512' => 'chemin-du-clos_exterieur-9@1024.jpg',
                 ],
             ],
         ],

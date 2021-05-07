@@ -4,10 +4,11 @@
 
 @section('content')
 
-    @include('templates.object-2-col', [
+    @include('templates.object-1-col', [
         'header' => "Maison familiale, Belprahon",
         'subheader' => "",
         'description' => [
+            "1962, en stage chez Kleiber Architecte."
         ],
         'files' => [
         ],

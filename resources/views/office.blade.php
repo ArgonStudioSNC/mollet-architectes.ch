@@ -23,48 +23,72 @@ $figures = [
         ],
     ],
 ]
+
+
+
 @endphp
 
 @section('content')
     <div class="site-content">
         <div class="grid-container">
             <div class="object-lead grid-x grid-margin-x">
-                <button class="cell xxlarge-8 reveal-external-control" data-toggle="reveal-gallery" data-slide=0>
-                    <picture>
-                        @foreach ($figures[0]['media'] as $size => $path)
-                        <source media="(min-width:{{ $size }}px)" srcset="{{ asset($dir.$path) }}"\>
-                        @endforeach
-                        <img class=flex-img src="{{ asset($dir.$figures[0]['src']) }}" alt="{{ $figures[0]['alt'] }}"\>
-                    </picture>
-                </button>
+            @for ($i=1; $i < count($figures); $i++)
+            <button class="cell xxlarge-8 reveal-external-control" data-toggle="reveal-gallery" data-slide={{ $i }}>
+                <picture>
+                    @foreach ($figures[$i]['media'] as $size => $path)
+                    <source media="(min-width:{{ $size }}px)" srcset="{{ asset($dir.$path) }}"\>
+                    @endforeach
+                    <img src="{{ asset($dir.$figures[$i]['src']) }}" alt="{{ $figures[$i]['alt'] }}"\>
+                </picture>
+            </button>
+            @endfor
             </div>
             <div class="grid-x grid-margin-x">
                 <div class="cell xxlarge-8">
-                    <div class="object-content">
-                        <h3>Henri Mollet Architectes Associés SA</h3>
-                        <h3 class="subheader">1988 - 2018</h3>
-                        <div class="object-description">
-                            <p>La fonction architecturale, devenue de plus en plus complexe, nécessite l’intervention de compétences techniques diverses de plus en plus nombreuses auxquelles l’architecte ne prétend en aucun cas se substituer. Cependant, l’architecte demeure, quelle que soit l’évolution des techniques, le seul professionnel directement préparé à l’appréhension globale des problèmes de l’aménagement de l’espace et à la conception des projets, c’est-à-dire à la traduction en volume des programmes définis par le maître d’ouvrage. Le fait même que l’établissement des projets soit devenu un acte pluridiscipli­naire nécessite plus que jamais l’intervention d’une imagination créatrice seule capable de donner au projet son sens et sa valeur, acte qui doit, après avoir fait avec l’ensemble des disciplines concernées l’examen des moyens, donner une réponse globale aux problèmes posés.
-                            </p>
-                            <p>Cette mission de création et de synthèse constitue le rôle spécifique de l’architecte. Agir sur les conditions de la qualité architecturale, c’est exiger d’abord que la conception des constructions soit assurée par des professionnels compétents et mettre la profession d’architecte en mesure d’exercer sa responsabilité sociale.
-                            </p>
+                    <div class="masonry-css">
+                        <div class="masonry-css-item">
+                            <div class="object-content">
+                                <h3>Henri Mollet Architectes Associés SA</h3>
+                                <h3 class="subheader">1988 - 2018</h3>
+
+                                <div class="object-description">
+                                    <p>@lang('office.intro-1')</p>
+                                    <p>@lang('office.intro-2')</p>
+                                </div>
+                                <div class="object-data grid-x">
+                                    <div class="cell small-4">Henri Mollet</div>
+                                    <div class="cell small-8">1939</div>
+                                    <div class="cell small-4">@lang('office.graduate')</div>
+                                    <div class="cell small-8">1966</div>
+                                    <div class="cell small-4">@lang('office.assistant')</div>
+                                    <div class="cell small-8">1966 – 1970</div>
+                                    <div class="cell small-12">&nbsp;</div>
+                                    <div class="cell small-4">@lang('office.agency-lausanne')</div>
+                                    <div class="cell small-8">1969</div>
+                                    <div class="cell small-4">@lang('office.agency-biel')</div>
+                                    <div class="cell small-8">1971</div>
+                                </div>
+                                <div class="object-data grid-x">
+                                    <div class="cell small-4 text-lowercase">@lang('office.partners').</div>
+                                    <div class="cell small-3">François Michaud</div>
+                                    <div class="cell small-5">1969 – 1971</div>
+                                    <div class="cell small-4 text-lowercase"></div>
+                                    <div class="cell small-3">Jean-Pierre Bechtel</div>
+                                    <div class="cell small-5">1970 – 1995</div>
+                                    <div class="cell small-12">&nbsp;</div>
+                                    <div class="cell small-4 text-lowercase">@lang('office.main-collaborators').</div>
+                                    <div class="cell small-8">Eric Fahrer, Jean-Paul Léchot, Giovanni Zoppe, Rolf Weber, Lucien Miserez, Michèle Mollet, Christina Moldovan, Pierre-Alain Chanez, Andrew Dardel, David Reber, Paolo Santoianni, Bernadette Kaelin, Tomaso Baviera</div>
+                                </div>
+                            </div>
                         </div>
-                        @for ($i=1; $i < count($figures); $i++)
-                        <button class="reveal-external-control" data-toggle="reveal-gallery" data-slide={{ $i }}>
+                        <button class="masonry-css-item reveal-external-control" data-toggle="reveal-gallery" data-slide=0>
                             <picture>
-                                @foreach ($figures[$i]['media'] as $size => $path)
+                                @foreach ($figures[0]['media'] as $size => $path)
                                 <source media="(min-width:{{ $size }}px)" srcset="{{ asset($dir.$path) }}"\>
                                 @endforeach
-                                <img src="{{ asset($dir.$figures[$i]['src']) }}" alt="{{ $figures[$i]['alt'] }}"\>
+                                <img class=flex-img src="{{ asset($dir.$figures[0]['src']) }}" alt="{{ $figures[0]['alt'] }}"\>
                             </picture>
                         </button>
-                        @endfor
-                        <div class="object-description">
-                            <p>Die immer komplexer werdenden Anforderungen an die Architektur verlangen den Beizug zahlreicher Fachleute, die durch den Architekten keinesfalls ersetzt werden können. Dennoch bleibt der Architekt, unabhängig von der technischen Entwicklung, die einzige Fachkraft, die direkt für eine umfassende Beurteilung der Probleme im Zusammenhang mit der räumlichen Gestaltung und der Konzeption von Projekten befähigt ist, also für die Umsetzung des vom Bauherrn vorge­gebenen Raumprogramms. Die Tatsache, dass die Erarbeitung von Projekten zu einer interdisziplinären Tätigkeit geworden ist, erfordert mehr denn je kreative Vorstellungskraft. Nur sie ist imstande, dem Projekt Sinn und Wert zu vermitteln, aber erst nachdem mit sämtlichen Spezialisten alle zur Verfügung stehenden Mittel geprüft wurden, die eine gesamtheitliche Beantwortung der gestellten Fragen ermöglichen.
-                            </p>
-                            <p>Diese Kreations- und Synthesearbeit ist Aufgabe des Architekten. Auf die architektonische Qualität Einfluss nehmen heisst vor allem fordern, dass die Projekt-Konzeption durch kompetente Fachleute erfolgt und dem Architekten die Grundlagen für die Wahrnehmung seiner sozialen Verantwortung liefert.
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>

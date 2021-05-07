@@ -32,6 +32,15 @@
                 ],
             ],
             [
+                'alt' => "Rez-de-Chaussée",
+                'src' => 'cafe-du-parc_rez-de-chaussee@512.jpg',
+                'media' => [
+                    '2048' => 'cafe-du-parc_rez-de-chaussee.jpg',
+                    '1024' => 'cafe-du-parc_rez-de-chaussee@2048.jpg',
+                    '512' => 'cafe-du-parc_rez-de-chaussee@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Plan de situation",
                 'src' => 'cafe-du-parc_situation@512.jpg',
                 'media' => [

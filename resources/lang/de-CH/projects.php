@@ -16,6 +16,7 @@ return [
 
     'read-the-brochure' => 'zur Original-Broschüre',
     'read-the-sheet' => 'zur Originaldatei',
+    'see-the-drawings' => 'zur Baupläne',
 
     'winning' => 'gewonnene Wettbewerbe',
     'award-winning' => 'Ausgezeichnete Projekte',

@@ -24,20 +24,12 @@
         ],
         'figures' => [
             [
-                'alt' => "Image extérieure 6",
-                'src' => 'dufour_exterieur-6@512.jpg',
+                'alt' => "Image extérieure 8",
+                'src' => 'dufour_exterieur-8@512.jpg',
                 'media' => [
-                    '1024' => 'dufour_exterieur-6.jpg',
-                    '512' => 'dufour_exterieur-6@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image extérieure 1",
-                'src' => 'dufour_exterieur-1@512.jpg',
-                'media' => [
-                    '2048' => 'dufour_exterieur-1.jpg',
-                    '1024' => 'dufour_exterieur-1@2048.jpg',
-                    '512' => 'dufour_exterieur-1@1024.jpg',
+                    '2048' => 'dufour_exterieur-8.jpg',
+                    '1024' => 'dufour_exterieur-8@2048.jpg',
+                    '512' => 'dufour_exterieur-8@1024.jpg',
                 ],
             ],
             [
@@ -65,6 +57,22 @@
                     '2048' => 'dufour_exterieur-4.jpg',
                     '1024' => 'dufour_exterieur-4@2048.jpg',
                     '512' => 'dufour_exterieur-4@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 9",
+                'src' => 'dufour_exterieur-9@512.jpg',
+                'media' => [
+                    '2048' => 'dufour_exterieur-9.jpg',
+                    '1024' => 'dufour_exterieur-9@2048.jpg',
+                    '512' => 'dufour_exterieur-9@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image aérienne 1",
+                'src' => 'dufour_aerienne-1@512.jpg',
+                'media' => [
+                    '512' => 'dufour_aerienne-1.jpg',
                 ],
             ],
             [

@@ -15,11 +15,12 @@
         ],
         'figures' => [
             [
-                'alt' => "Image extérieure 1",
-                'src' => 'cpcjb-tavannes_exterieur-1@512.jpg',
+                'alt' => "Image extérieure 6",
+                'src' => 'cpcjb-tavannes_exterieur-6@512.jpg',
                 'media' => [
-                    '1024' => 'cpcjb-tavannes_exterieur-1.jpg',
-                    '512' => 'cpcjb-tavannes_exterieur-1@1024.jpg',
+                    '2048' => 'cpcjb-tavannes_exterieur-6.jpg',
+                    '1024' => 'cpcjb-tavannes_exterieur-6@2048.jpg',
+                    '512' => 'cpcjb-tavannes_exterieur-6@1024.jpg',
                 ],
             ],
             [
@@ -31,11 +32,12 @@
                 ],
             ],
             [
-                'alt' => "Image extérieure 3",
-                'src' => 'cpcjb-tavannes_exterieur-3@512.jpg',
+                'alt' => "Image extérieure 5",
+                'src' => 'cpcjb-tavannes_exterieur-5@512.jpg',
                 'media' => [
-                    '1024' => 'cpcjb-tavannes_exterieur-3.jpg',
-                    '512' => 'cpcjb-tavannes_exterieur-3@1024.jpg',
+                    '2048' => 'cpcjb-tavannes_exterieur-5.jpg',
+                    '1024' => 'cpcjb-tavannes_exterieur-5@2048.jpg',
+                    '512' => 'cpcjb-tavannes_exterieur-5@1024.jpg',
                 ],
             ],
             [

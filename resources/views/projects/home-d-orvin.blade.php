@@ -69,6 +69,24 @@
                 ],
             ],
             [
+                'alt' => "Image intérieur 1",
+                'src' => 'home-d-orvin_interieur-1@512.jpg',
+                'media' => [
+                    '2048' => 'home-d-orvin_interieur-1.jpg',
+                    '1024' => 'home-d-orvin_interieur-1@2048.jpg',
+                    '512' => 'home-d-orvin_interieur-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image intérieur 2",
+                'src' => 'home-d-orvin_interieur-2@512.jpg',
+                'media' => [
+                    '2048' => 'home-d-orvin_interieur-2.jpg',
+                    '1024' => 'home-d-orvin_interieur-2@2048.jpg',
+                    '512' => 'home-d-orvin_interieur-2@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Coupes et façades",
                 'src' => 'home-d-orvin_coupes-et-facades-1@512.jpg',
                 'media' => [

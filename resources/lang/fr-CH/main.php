@@ -12,7 +12,7 @@ return [
     'collective-housing' => 'habitations collectives',
     'individual-housing' => 'habitations individuelles',
     'competitions' => 'concours',
-    'office' => 'bureau',
+    'office' => 'agence',
 
     'description-home' => "Une archive des concours et des réalisations du bureau d’architecture biennois « Henri Mollet Architectes Associés SA », de 1982 à 2018.",
     'description-competitions' => "Principales réalisations et concours du bureau d’architecture biennois « Henri Mollet Architectes Associés SA » de 1982 à 1997.",

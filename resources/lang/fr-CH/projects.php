@@ -16,6 +16,7 @@ return [
 
     'read-the-brochure' => 'consulter la brochure originale',
     'read-the-sheet' => 'consulter la fiche originale',
+    'see-the-drawings' => 'consulter les plans',
 
     'winning' => 'concours gagnants',
     'award-winning' => 'projets primés',

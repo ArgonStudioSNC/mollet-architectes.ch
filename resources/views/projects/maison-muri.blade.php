@@ -10,6 +10,7 @@
         'description' => [
         ],
         'files' => [
+            __('projects.see-the-drawings') => asset('storage/projects/'.$project->slug.'/plans.pdf'),
         ],
         'details' => [
         ],
@@ -20,6 +21,15 @@
                 'media' => [
                     '1024' => 'maison-muri_exterieur-3.jpg',
                     '512' => 'maison-muri_exterieur-3@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 5",
+                'src' => 'maison-muri_exterieur-5@512.jpg',
+                'media' => [
+                    '2048' => 'maison-muri_exterieur-5.jpg',
+                    '1024' => 'maison-muri_exterieur-5@2048.jpg',
+                    '512' => 'maison-muri_exterieur-5@1024.jpg',
                 ],
             ],
             [

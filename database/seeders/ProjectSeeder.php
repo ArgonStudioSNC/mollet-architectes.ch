@@ -43,6 +43,7 @@ class ProjectSeeder extends Seeder
         Project::create( [ 'slug' => 'cpcjb-tavannes', 'name' => 'CPCJB', 'category' => 'public-building', 'client' => '', 'location' => 'Tavannes' ] );
         Project::create( [ 'slug' => 'ried-de-madretsch', 'name' => 'Ried de Madretsch', 'category' => 'collective-housing', 'client' => '', 'location' => 'Biel/Bienne' ] );
         Project::create( [ 'slug' => 'fluhaecker-ipsach', 'name' => 'Fluhäcker', 'category' => 'collective-housing', 'client' => 'Versorgestiftung Bern', 'location' => 'Ipsach' ] );
-
+        Project::create( [ 'slug' => 'alex-schoeni', 'name' => 'Rue Alex-Schöni', 'category' => 'collective-housing', 'location' => 'Biel/Bienne' ] );
+        Project::create( [ 'slug' => 'rue-centrale', 'name' => 'Rue Centrale', 'category' => 'collective-housing', 'location' => 'Biel/Bienne' ] );
     }
 }

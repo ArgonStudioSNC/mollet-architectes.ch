@@ -15,18 +15,38 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 8",
+                'src' => 'ecole-d-agriculture_exterieur-8@512.jpg',
+                'media' => [
+                    '2048' => 'ecole-d-agriculture_exterieur-8.jpg',
+                    '1024' => 'ecole-d-agriculture_exterieur-8@2048.jpg',
+                    '512' => 'ecole-d-agriculture_exterieur-8@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 9",
+                'src' => 'ecole-d-agriculture_exterieur-9@512.jpg',
+                'media' => [
+                    '2048' => 'ecole-d-agriculture_exterieur-9.jpg',
+                    '1024' => 'ecole-d-agriculture_exterieur-9@2048.jpg',
+                    '512' => 'ecole-d-agriculture_exterieur-9@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Image extérieure 7",
+                'src' => 'ecole-d-agriculture_exterieur-6@512.jpg',
+                'media' => [
+                    '2048' => 'ecole-d-agriculture_exterieur-7.jpg',
+                    '1024' => 'ecole-d-agriculture_exterieur-7@2048.jpg',
+                    '512' => 'ecole-d-agriculture_exterieur-7@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 2",
                 'src' => 'ecole-d-agriculture_exterieur-2@512.jpg',
                 'media' => [
                     '1024' => 'ecole-d-agriculture_exterieur-2.jpg',
                     '512' => 'ecole-d-agriculture_exterieur-2@1024.jpg',
-                ],
-            ],
-            [
-                'alt' => "Image extérieure 1",
-                'src' => 'ecole-d-agriculture_exterieur-1@512.jpg',
-                'media' => [
-                    '512' => 'ecole-d-agriculture_exterieur-1.jpg',
                 ],
             ],
             [

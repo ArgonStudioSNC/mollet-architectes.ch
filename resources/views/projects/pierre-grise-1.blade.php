@@ -24,6 +24,15 @@
         ],
         'figures' => [
             [
+                'alt' => "Image extérieure 6",
+                'src' => 'pierre-grise-1_exterieur-6@512.jpg',
+                'media' => [
+                    '2048' => 'pierre-grise-1_exterieur-6.jpg',
+                    '1024' => 'pierre-grise-1_exterieur-6@2048.jpg',
+                    '512' => 'pierre-grise-1_exterieur-6@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 1",
                 'src' => 'pierre-grise-1_exterieur-1@512.jpg',
                 'media' => [

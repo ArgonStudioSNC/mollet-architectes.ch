@@ -44,6 +44,15 @@
                 ],
             ],
             [
+                'alt' => "Model 3D",
+                'src' => 'migros-marche-neuf_model3D@512.jpg',
+                'media' => [
+                    '2048' => 'migros-marche-neuf_model3D.jpg',
+                    '1024' => 'migros-marche-neuf_model3D@2048.jpg',
+                    '512' => 'migros-marche-neuf_model3D@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 3",
                 'src' => 'migros-marche-neuf_exterieur-3@512.jpg',
                 'media' => [
