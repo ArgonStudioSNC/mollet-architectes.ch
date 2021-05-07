@@ -55,29 +55,29 @@ $figures = [
                                     <p>@lang('office.intro-1')</p>
                                     <p>@lang('office.intro-2')</p>
                                 </div>
-                                <div class="object-data grid-x">
-                                    <div class="cell small-4">Henri Mollet</div>
-                                    <div class="cell small-8">1939</div>
-                                    <div class="cell small-4">@lang('office.graduate')</div>
-                                    <div class="cell small-8">1966</div>
-                                    <div class="cell small-4">@lang('office.assistant')</div>
-                                    <div class="cell small-8">1966 – 1970</div>
+                                <div class="object-data grid-x grid-margin-x">
+                                    <div class="cell small-8 medium-4">Henri Mollet</div>
+                                    <div class="cell small-4 medium-8">1939</div>
+                                    <div class="cell small-8 medium-4">@lang('office.graduate')</div>
+                                    <div class="cell small-4 medium-8">1966</div>
+                                    <div class="cell small-8 medium-4">@lang('office.assistant')</div>
+                                    <div class="cell small-4 medium-8">1966 – 1970</div>
                                     <div class="cell small-12">&nbsp;</div>
-                                    <div class="cell small-4">@lang('office.agency-lausanne')</div>
-                                    <div class="cell small-8">1969</div>
-                                    <div class="cell small-4">@lang('office.agency-biel')</div>
-                                    <div class="cell small-8">1971</div>
+                                    <div class="cell small-8 medium-4">@lang('office.agency-lausanne')</div>
+                                    <div class="cell small-4 medium-8">1969</div>
+                                    <div class="cell small-8 medium-4">@lang('office.agency-biel')</div>
+                                    <div class="cell small-4 medium-8">1971</div>
                                 </div>
-                                <div class="object-data grid-x">
-                                    <div class="cell small-4 text-lowercase">@lang('office.partners').</div>
-                                    <div class="cell small-3">François Michaud</div>
-                                    <div class="cell small-5">1969 – 1971</div>
-                                    <div class="cell small-4 text-lowercase"></div>
-                                    <div class="cell small-3">Jean-Pierre Bechtel</div>
-                                    <div class="cell small-5">1970 – 1995</div>
+                                <div class="object-data grid-x grid-margin-x">
+                                    <div class="cell medium-4 text-lowercase">@lang('office.partners').</div>
+                                    <div class="cell small-8 medium-3">François Michaud</div>
+                                    <div class="cell small-4 medium-5">1969 – 1971</div>
+                                    <div class="cell medium-4 text-lowercase"></div>
+                                    <div class="cell small-8 medium-3">Jean-Pierre Bechtel</div>
+                                    <div class="cell small-4 medium-5">1970 – 1995</div>
                                     <div class="cell small-12">&nbsp;</div>
-                                    <div class="cell small-4 text-lowercase">@lang('office.main-collaborators').</div>
-                                    <div class="cell small-8">Eric Fahrer, Jean-Paul Léchot, Giovanni Zoppe, Rolf Weber, Lucien Miserez, Michèle Mollet, Christina Moldovan, Pierre-Alain Chanez, Andrew Dardel, David Reber, Paolo Santoianni, Bernadette Kaelin, Tomaso Baviera</div>
+                                    <div class="cell medium-4 text-lowercase">@lang('office.main-collaborators').</div>
+                                    <div class="cell medium-8">Eric Fahrer, Jean-Paul Léchot, Giovanni Zoppe, Rolf Weber, Lucien Miserez, Michèle Mollet, Christina Moldovan, Pierre-Alain Chanez, Andrew Dardel, David Reber, Paolo Santoianni, Bernadette Kaelin, Tomaso Baviera</div>
                                 </div>
                             </div>
                         </div>
