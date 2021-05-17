@@ -33,6 +33,24 @@
                 ],
             ],
             [
+                'alt' => "Coupe 1",
+                'src' => 'maison-schlub_coupe-1@512.jpg',
+                'media' => [
+                    '2048' => 'maison-schlub_coupe-1.jpg',
+                    '1024' => 'maison-schlub_coupe-1@2048.jpg',
+                    '512' => 'maison-schlub_coupe-1@1024.jpg',
+                ],
+            ],
+            [
+                'alt' => "Coupe 2",
+                'src' => 'maison-schlub_coupe-2@512.jpg',
+                'media' => [
+                    '2048' => 'maison-schlub_coupe-2.jpg',
+                    '1024' => 'maison-schlub_coupe-2@2048.jpg',
+                    '512' => 'maison-schlub_coupe-2@1024.jpg',
+                ],
+            ],
+            [
                 'alt' => "Image extérieure 2",
                 'src' => 'maison-schlub_exterieur-2@512.jpg',
                 'media' => [
