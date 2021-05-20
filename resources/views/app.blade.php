@@ -86,13 +86,24 @@
 
     <footer id="site-footer" class="align-self-bottom">
         <div class="grid-container">
-            <ul class="contact no-bullet hide-for-large">
-                <li><a href="{{ route('welcome') }}">@lang('main.office-full-name')</a></li>
-                <li><a href="{{ route('welcome') }}">@lang('main.office-address')</a></li>
-                <li><a href="{{ route('welcome') }}">2502 Biel/Bienne</a></li>
-                <li><a href="tel:+41323238067">T 032 323 80 67</a></li>
-                <li><a style="text-decoration: underline" href="mailto:henrimollet53@gmail.com">e-mail</a></li>
-            </ul>
+            <div class="grix-y grid-padding-y">
+                <div class="cell">
+                    <div class="localization">
+                        <a rel="alternate" hreflang="fr_CH" href="{{ LaravelLocalization::getLocalizedURL('fr-CH', null, [], true) }}">fr</a>
+                        <span>I</span>
+                        <a rel="alternate" hreflang="de_CH" href="{{ LaravelLocalization::getLocalizedURL('de-CH', null, [], true) }}">de</a>
+                    </div>
+                </div>
+                <div class="cell hide-for-large">
+                    <ul class="contact no-bullet">
+                        <li><a href="{{ route('welcome') }}">@lang('main.office-full-name')</a></li>
+                        <li><a href="{{ route('welcome') }}">@lang('main.office-address')</a></li>
+                        <li><a href="{{ route('welcome') }}">2502 Biel/Bienne</a></li>
+                        <li><a href="tel:+41323238067">T 032 323 80 67</a></li>
+                        <li><a style="text-decoration: underline" href="mailto:henrimollet53@gmail.com">e-mail</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

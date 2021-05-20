@@ -55,7 +55,7 @@ return [
         //'fil'         => ['name' => 'Filipino',               'script' => 'Latn', 'native' => 'Filipino', 'regional' => 'fil_PH'],
         //'fr'          => ['name' => 'French',                 'script' => 'Latn', 'native' => 'français', 'regional' => 'fr_FR'],
         //'fr-CA'       => ['name' => 'Canadian French',        'script' => 'Latn', 'native' => 'français canadien', 'regional' => 'fr_CA'],
-        'fr-CH'       => ['name' => 'Swiss French',        'script' => 'Latn', 'native' => 'français suisse', 'regional' => 'fr_CH'],
+        'fr-CH'         => ['name' => 'Swiss French',           'script' => 'Latn', 'native' => 'français suisse', 'regional' => 'fr_CH'],
         //'fy'          => ['name' => 'Western Frisian',        'script' => 'Latn', 'native' => 'frysk', 'regional' => 'fy_DE'],
         //'fur'         => ['name' => 'Friulian',               'script' => 'Latn', 'native' => 'furlan', 'regional' => 'fur_IT'],
         //'fo'          => ['name' => 'Faroese',                'script' => 'Latn', 'native' => 'føroyskt', 'regional' => 'fo_FO'],
@@ -159,7 +159,7 @@ return [
         //'nyn'         => ['name' => 'Nyankole',               'script' => 'Latn', 'native' => 'Runyankore', 'regional' => ''],
         //'ssy'         => ['name' => 'Saho',                   'script' => 'Latn', 'native' => 'Saho', 'regional' => ''],
         //'sc'          => ['name' => 'Sardinian',              'script' => 'Latn', 'native' => 'sardu', 'regional' => 'sc_IT'],
-        'de-CH'       => ['name' => 'Swiss High German',      'script' => 'Latn', 'native' => 'Schweizer Hochdeutsch', 'regional' => 'de_CH'],
+        'de-CH'         => ['name' => 'Swiss High German',      'script' => 'Latn', 'native' => 'Schweizer Hochdeutsch', 'regional' => 'de_CH'],
         //'gsw'         => ['name' => 'Swiss German',           'script' => 'Latn', 'native' => 'Schwiizertüütsch', 'regional' => ''],
         //'trv'         => ['name' => 'Taroko',                 'script' => 'Latn', 'native' => 'Seediq', 'regional' => ''],
         //'seh'         => ['name' => 'Sena',                   'script' => 'Latn', 'native' => 'sena', 'regional' => ''],
@@ -327,7 +327,7 @@ return [
     // If `useAcceptLanguageHeader` is true, then the first time
     // the locale will be determined from browser and redirect to that language.
     // After that, `hideDefaultLocaleInURL` behaves as usual.
-    'hideDefaultLocaleInURL' => false,
+    'hideDefaultLocaleInURL' => true,
 
     // If you want to display the locales in particular order in the language selector you should write the order here.
     //CAUTION: Please consider using the appropriate locale code otherwise it will not work

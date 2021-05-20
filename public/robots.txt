@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://mollet-architectes.ch/sitemap.xml

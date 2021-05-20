@@ -29,3 +29,8 @@ Route::group(
         Route::get('/projet/{slug}', [SiteController::class, 'project'])->name('project');
     }
 );
+
+use Spatie\Sitemap\SitemapGenerator;
+Route::get('sitemap', function() {
+    return SitemapGenerator::create('https://mollet-architectes.ch')->getSitemap()->writeToDisk('public', 'sitemap.xml');
+});
