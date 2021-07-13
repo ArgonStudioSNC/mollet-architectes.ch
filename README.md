@@ -1,4 +1,6 @@
-# [mollet-architectes.ch](https://mollet-architectes.ch/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# [mollet-architectes.ch](https://mollet-architectes.ch/) 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## À propos
 
