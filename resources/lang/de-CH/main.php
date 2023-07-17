@@ -5,7 +5,7 @@ return [
     'menu' => 'Menü',
 
     'office-short-name' => 'Mollet Architectes',
-    'office-full-name' => 'Henri Mollet Architectes Associés',
+    'office-full-name' => 'Henri Mollet Architectes',
     'office-address' => 'Grausteinweg 1',
 
     'public-buildings' => 'öffentliche Gebäude',

@@ -5,7 +5,7 @@ return [
     'menu' => 'menu',
 
     'office-short-name' => 'Mollet Architectes',
-    'office-full-name' => 'Henri Mollet Architectes Associés',
+    'office-full-name' => 'Henri Mollet Architectes',
     'office-address' => 'Chemin de la Pierre-Grise 1',
 
     'public-buildings' => 'bâtiments publics',

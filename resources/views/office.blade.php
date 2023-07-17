@@ -48,7 +48,7 @@ $figures = [
                     <div class="masonry-css">
                         <div class="masonry-css-item">
                             <div class="object-content">
-                                <h3>Henri Mollet Architectes Associés SA</h3>
+                                <h3>@lang('main.office-full-name')</h3>
                                 <h3 class="subheader">1968 - 2018</h3>
 
                                 <div class="object-description">
